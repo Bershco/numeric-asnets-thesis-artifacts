@@ -6,6 +6,103 @@ level: the repository contains the source code, while this directory contains
 the selected table, exact evaluation evidence, selected checkpoints, and the
 commands needed to train or evaluate the models.
 
+## Quick start: clean installation
+
+Run these commands on a compute node with a sufficiently long allocation. The
+initial dependency installation and planner compilation can take more than two
+hours, although package caches make subsequent installations faster.
+
+### 1. Create a clean directory and clone the complete bundle
+
+```bash
+cd "$HOME"
+mkdir numeric-asnets-clean
+cd numeric-asnets-clean
+
+git lfs install
+
+GIT_LFS_SKIP_SMUDGE=1 git clone \
+  https://github.com/Bershco/numeric-asnets-thesis-artifacts.git
+
+cd numeric-asnets-thesis-artifacts
+
+git lfs pull
+git lfs fsck
+```
+
+### 2. Enter the supplied Apptainer image
+
+```bash
+apptainer exec \
+  --bind "$HOME:$HOME" \
+  --pwd "$PWD/asnets" \
+  thesis_reproducibility_bundle/container/image.sif \
+  /bin/bash
+```
+
+The shell should now display an `Apptainer>` prompt. A message such as
+`groups: cannot find name for group ID ...` is harmless.
+
+### 3. Create and activate a clean virtual environment
+
+Run the remaining commands inside Apptainer:
+
+```bash
+python3 -m venv ../venv-asnets
+source ../venv-asnets/bin/activate
+
+type -P python
+python --version
+```
+
+### 4. Install the pinned packaging tools
+
+```bash
+python -m pip install \
+  "pip==25.1.1" \
+  "setuptools==59.6.0" \
+  "wheel==0.45.1"
+```
+
+### 5. Install the pinned dependencies
+
+```bash
+python -m pip install \
+  -r ../thesis_reproducibility_bundle/requirements.txt
+```
+
+### 6. Install Numeric ASNets
+
+```bash
+python -m pip install -e . --no-deps
+```
+
+If a compute allocation ends during this step, request another compute node,
+enter the same image from the same checkout, reactivate `../venv-asnets`, and
+repeat only this command. The installation is resumable; do not reinstall all
+dependencies.
+
+### 7. Verify the completed environment
+
+```bash
+export PYTHONPATH="$PWD:${PYTHONPATH:-}"
+
+python -m pip check
+
+python -c \
+  "import tensorflow, jpype, mdpsim, ssipp, pddl_parser, asnets; print('Environment OK')"
+```
+
+A successful clean installation ends with:
+
+```text
+No broken requirements found.
+Environment OK
+```
+
+TensorFlow messages about registering CUDA, cuDNN, cuFFT, or cuBLAS factories
+are harmless when running these CPU experiments.
+
 ## Contents
 
 - `results/main_results_table.xlsx` — the single showcased results sheet.
@@ -52,6 +149,7 @@ currently uses one selected network and one evaluation campaign; see
 
 - Linux (the experiments were run under Slurm, but Slurm is not required for a
   direct single-process run).
+- Git and Git LFS.
 - Apptainer.
 - The experiment image described in `container/README.md`.
 - This repository checked out at the commit recorded in
@@ -61,39 +159,7 @@ currently uses one selected network and one evaluation campaign; see
 The original environment used Python 3 inside the Apptainer image, OpenJDK,
 JPype, TensorFlow, ENHSP/JPDDL, and the repository's `venv-asnets` environment.
 
-## One-time setup
-
-```bash
-git clone --depth 1 https://github.com/Bershco/numeric-asnets-thesis-artifacts.git
-cd numeric-asnets-thesis-artifacts
-
-# A normal clone downloads the Git LFS objects automatically. Run this only
-# if LFS was skipped or any pointer files remain unresolved.
-git lfs pull
-
-# Verify the bundled image.
-cd thesis_reproducibility_bundle/container
-sha256sum -c image.sif.sha256
-cd ../..
-
-# The image is entered with the repository and its parent storage visible.
-apptainer exec \
-  --bind "$PWD:$PWD" \
-  --pwd "$PWD/asnets" \
-  thesis_reproducibility_bundle/container/image.sif \
-  /bin/bash
-```
-
-Inside the container:
-
-```bash
-python3 -m venv ../venv-asnets
-source ../venv-asnets/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r ../thesis_reproducibility_bundle/requirements.txt
-python -m pip install -e . --no-deps
-export PYTHONPATH="$(cd .. && pwd):${PYTHONPATH:-}"
-```
+## Installation details
 
 `pddl_parser` version 1.2 is installed from its pinned upstream Git commit
 because that exact package is not published on PyPI.
