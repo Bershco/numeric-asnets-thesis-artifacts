@@ -113,9 +113,20 @@ are harmless when running these CPU experiments.
   confirmatory seed set, required jobs, and planned confidence-interval/tests.
 - `provenance/statistical_replication_gap_manifest.csv` — what already exists
   and what is missing for each domain/value-head configuration.
-- `provenance/statistical_replication_job_manifest.csv` — all 576 planned
-  training, selected-checkpoint evaluation, and labelled sensitivity tasks.
-- `provenance/statistical_replication_curve_manifest.csv` — the separate 1,890
+- `provenance/statistical_replication_job_manifest.csv` — all 640 planned
+  non-curve training, selected-checkpoint evaluation, and sensitivity tasks.
+- `provenance/statistical_replication_stage1_training_manifest.csv` and
+  `statistical_replication_stage2_training_manifest.csv` — 100 jobs each.
+- `provenance/statistical_replication_stage1_submission_2026-08-20.tsv` — the
+  exact Slurm job ID, job name, seed, log path, and resources for the 100
+  submitted stage-1 jobs.
+- `provenance/statistical_replication_selected_policy_manifest.csv` and
+  `statistical_replication_primary_mcts_manifest.csv` — 200 jobs each.
+- `provenance/statistical_replication_secondary_mcts_manifest.csv` — 40
+  explicitly labelled normal/narrow/search-budget follow-ups.
+- `provenance/statistical_replication_stage1_curve_manifest.csv` — up to 20,100
+  conditional every-five evaluations; only existing snapshots are materialized.
+- `provenance/statistical_replication_stage2_curve_manifest.csv` — 2,100
   every-five policy learning-curve evaluations.
 - `logs/` — exact evaluation logs, named by domain, research question, stage,
   inference type, and Slurm job ID.

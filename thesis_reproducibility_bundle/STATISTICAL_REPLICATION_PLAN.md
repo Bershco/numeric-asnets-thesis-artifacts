@@ -33,33 +33,26 @@ Accordingly, the archive provides two conditional stage-2 seeds but only one
 stage-1 source per selected configuration.  It does not provide five or ten
 independent end-to-end replications for any displayed table cell.
 
-## Predeclared additional seeds
+## Predeclared confirmatory seeds
 
-The displayed result supplies one existing trained network per cell. The
-following nine additional seeds were generated once from Python's deterministic
+The following ten fresh seeds were generated once from Python's deterministic
 `random.Random(20260820)` stream and must be used across every domain and both
 value-head conditions:
 
 ```text
 1963100312, 2011206605, 1073581256, 1239739722, 1472491096,
-534933607, 2082152039, 1510771779, 923500475
+534933607, 2082152039, 1510771779, 923500475, 1972442430
 ```
 
-All nine are one declared cohort and may be submitted together. Slurm array or
+All ten are one declared cohort and may be submitted together. Slurm array or
 controller concurrency limits should restrict how many memory-heavy tasks run
 at once; that is resource throttling, not a statistical wave or stopping rule.
-Seed `1972442430` is reserved as a tenth fresh matched seed if the advisors
-require ten prospective pairs rather than nine new pairs plus the existing
-displayed network.
 
-Nine new lineages plus the displayed lineage give ten networks per table cell.
 With only five paired seeds, a two-sided exact sign-flip test cannot reach
-p < 0.05 even if all five differences have the same sign. Nine prospective
-matched seeds can reach that threshold and give a materially more interpretable
-interval. Because several legacy VH-off stage-1 seeds were time-generated or
-not recorded, the clean paired RQ3 analysis has nine prospective pairs; report
-the ten-network cell summaries as a sensitivity analysis that includes the
-legacy displayed result.
+p < 0.05 even if all five differences have the same sign. Ten prospective
+matched seeds provide ten clean pairs for RQ3 and a materially more interpretable
+seed-level interval. The existing displayed network remains an archival result
+and is not counted as one of the ten confirmatory seeds.
 
 ## Fixed training protocol
 
@@ -89,16 +82,21 @@ mixed with the primary configuration.
 4. completed stage-2 training log and validation-selected checkpoint;
 5. stage-2 policy evaluation on that exact checkpoint;
 6. stage-2 MCTS evaluation on that same checkpoint;
-7. optional-but-recommended every-five stage-2 policy curve (epochs 0, 5,
-   ..., 95, 99), never used for checkpoint selection.
+7. every-five stage-1 policy curve (epochs 0, 5, ... and the final available
+   epoch), materialized only for snapshots that actually exist;
+8. every-five stage-2 policy curve (epochs 0, 5, ..., 95, 99).
 
-The additional-nine campaign requires 90 stage-1 training jobs, 90 stage-2
-training jobs, 180 selected-checkpoint policy evaluations, and 180 primary MCTS
-evaluations: 540 core Slurm tasks. Thirty-six explicitly labelled secondary
-normal/narrow/search-budget evaluations bring the job manifest to 576 tasks.
-Complete every-five curves add 1,890 cheap policy-evaluation tasks. Submit the
-cohort together but throttle concurrent execution; do not run all memory-heavy
-MCTS evaluations simultaneously.
+Neither learning curve may be used for checkpoint selection.
+
+The confirmatory campaign requires 100 stage-1 training jobs, 100 stage-2
+training jobs, 200 selected-checkpoint policy evaluations, and 200 primary MCTS
+evaluations: 600 core Slurm tasks. Forty explicitly labelled secondary
+normal/narrow/search-budget evaluations bring the non-curve total to 640 tasks.
+Stage 2 adds exactly 2,100 every-five policy evaluations. Stage 1 has up to
+20,100 conditional every-five evaluations (201 candidate epochs per lineage),
+but only checkpoints that exist before early stopping are materialized. Submit
+the cohort together but throttle concurrent execution; do not run all
+memory-heavy MCTS evaluations simultaneously.
 
 ## Research-question estimands
 
