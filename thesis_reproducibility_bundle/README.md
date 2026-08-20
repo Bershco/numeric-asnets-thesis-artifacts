@@ -111,6 +111,12 @@ are harmless when running these CPU experiments.
   replication limitations, and the recommended multi-seed design.
 - `STATISTICAL_REPLICATION_PLAN.md` — the audited five-domain seed gap, fixed
   confirmatory seed set, required jobs, and planned confidence-interval/tests.
+- `provenance/statistical_replication_gap_manifest.csv` — what already exists
+  and what is missing for each domain/value-head configuration.
+- `provenance/statistical_replication_job_manifest.csv` — all 576 planned
+  training, selected-checkpoint evaluation, and labelled sensitivity tasks.
+- `provenance/statistical_replication_curve_manifest.csv` — the separate 1,890
+  every-five policy learning-curve evaluations.
 - `logs/` — exact evaluation logs, named by domain, research question, stage,
   inference type, and Slurm job ID.
 - `weights/` — the stage-1 and selected stage-2 checkpoints used by those
