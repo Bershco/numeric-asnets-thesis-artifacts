@@ -379,15 +379,26 @@ def build_prob_flags_test(prob_mod, allowed_idxs=None):
 
 def get_prefix_dir(checkpoint_path):
     """Turn path like experiments-results/experiments.actprop_2l-.../.../... into
-    experiment-results/experiments.actprop_2l.../"""
+    experiment-results/experiments.actprop_2l.../.
+
+    Packaged checkpoints no longer retain that historical directory naming.
+    Keep their generated evaluation artifacts in a deterministic local output
+    directory rather than rejecting an otherwise valid checkpoint path.
+    """
     real_path = path.abspath(checkpoint_path)
     parts = real_path.split(path.sep)
     for idx in range(len(parts))[::-1]:
         part = parts[idx]
         if part.startswith('experiments.') or part.startswith('experiments_numeric.'):
             return path.sep.join(parts[:idx + 1])
-    raise ValueError("Couldn't find experiments. or experiments_numeric. prefix in '%s'" %
-                     checkpoint_path)
+
+    checkpoint_name = path.basename(real_path.rstrip(path.sep))
+    fallback_dir = path.abspath(path.join(
+        'experiment-results', 'packaged-evaluations', checkpoint_name))
+    print(
+        "Checkpoint is outside a historical experiment directory; "
+        "writing evaluation artifacts to '%s'" % fallback_dir)
+    return fallback_dir
 
 
 def parse_idx_list(idx_list):
