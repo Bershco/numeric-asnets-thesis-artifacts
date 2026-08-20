@@ -151,7 +151,7 @@ def run_fd_raw(planner,
     del cost_bound  # so that I don't accidentally use it
 
     # figure out where FD is and run it
-    cmdline = ["python", FD_PATH]
+    cmdline = [sys.executable, FD_PATH]
     if timeout_s is not None:
         assert timeout_s >= 1, "can't have <1s time limit (got %s)" % timeout_s
         cmdline.extend(["--overall-time-limit", "%ds" % timeout_s])

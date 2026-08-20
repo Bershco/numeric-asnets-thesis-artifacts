@@ -4,6 +4,7 @@ import importlib
 import os
 import re
 import subprocess
+import sys
 from types import ModuleType
 from typing import Any, List, Tuple
 
@@ -12,6 +13,7 @@ from asnets.utils.pddl_utils import relax_numeric_pddls
 ABOVE_DIR = os.path.abspath(
     os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 SSIPP_MANUAL_DIR = os.path.join(ABOVE_DIR, 'ssipp-solver')
+SSIPP_REVISION = '7dd13ad86ed915c55649a51e73a755a2f0cf2a0d'
 
 
 def has_ssipp_solver():
@@ -41,10 +43,15 @@ def try_install_ssipp_solver():
         ],
             check=True,
             cwd=ABOVE_DIR)
-        subprocess.run(["python", "build.py", "solver_ssp"],
+    ssipp_binary_path = os.path.join(SSIPP_MANUAL_DIR, "solver_ssp")
+    if not os.path.exists(ssipp_binary_path):
+        subprocess.run(
+            ["git", "checkout", SSIPP_REVISION],
+            check=True,
+            cwd=SSIPP_MANUAL_DIR)
+        subprocess.run([sys.executable, "build.py", "solver_ssp"],
                        check=True,
                        cwd=SSIPP_MANUAL_DIR)
-    ssipp_binary_path = os.path.join(SSIPP_MANUAL_DIR, "solver_ssp")
     assert os.path.exists(ssipp_binary_path), \
         "install failed; nothing found at '%s'" % (ssipp_binary_path, )
 
