@@ -91,12 +91,16 @@ python3 -m venv ../venv-asnets
 source ../venv-asnets/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r ../thesis_reproducibility_bundle/requirements.txt
-python -m pip install -e .
+python -m pip install -e . --no-deps
 export PYTHONPATH="$(cd .. && pwd):${PYTHONPATH:-}"
 ```
 
 `pddl_parser` version 1.2 is installed from its pinned upstream Git commit
 because that exact package is not published on PyPI.
+
+The editable ASNet installation also checks out and builds the production
+Fast Downward revision when `downward/` is absent. On Slurm it respects
+`SLURM_CPUS_PER_TASK` instead of unconditionally compiling with 16 workers.
 
 The virtual environment is created on the writable host filesystem while its
 Python interpreter and native dependencies come from the supplied image. On an

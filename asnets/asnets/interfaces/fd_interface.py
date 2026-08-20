@@ -9,6 +9,7 @@ import os.path as osp
 import re
 import shutil
 import subprocess
+import sys
 import time
 from typing import List, Optional, Tuple
 import uuid
@@ -24,6 +25,7 @@ THIS_DIR = osp.dirname(osp.abspath(__file__))
 ABOVE_DIR = osp.abspath(osp.join(THIS_DIR, '../../..'))
 FD_DIR = osp.join(ABOVE_DIR, 'downward')
 FD_PATH = osp.join(FD_DIR, 'fast-downward.py')
+FD_REVISION = 'a6b98adb939b9fb91eb8f0b5e74eb68a323d65ae'
 PLAN_BN = 'plan.out'
 STDOUT_BN = 'stdout.txt'
 STDERR_BN = 'stderr.txt'
@@ -42,28 +44,27 @@ def try_install_fd():
     # processes at once.
     if not has_fd():
         print("Installing FD")
-        if not osp.exists(FD_DIR):
-            # these commands check out a specific revision of fd, per
-            # https://stackoverflow.com/a/3489576
-            subprocess.run(["git", "init", "fd"], check=True, cwd=ABOVE_DIR)
-            subprocess.run([
-                "git", "remote", "add", "origin",
-                "https://github.com/aibasel/downward.git"
-            ], check=True, cwd=FD_DIR)
-            subprocess.run(
-                ["git", "fetch", "origin",
-                 # most recent revision last time this script was updated
-                 # (March 2022)
-                 "f42dfc992df1ce5a65312c0eeebaf7236e8ffdf8"],
-                check=True, cwd=FD_DIR)
-            subprocess.run(
-                ["git", "reset", "--hard", "FETCH_HEAD"],
-                check=True, cwd=FD_DIR)
+        os.makedirs(FD_DIR, exist_ok=True)
+        if not osp.isdir(osp.join(FD_DIR, '.git')):
+            subprocess.run(["git", "init"], check=True, cwd=FD_DIR)
+        subprocess.run(
+            ["git", "remote", "remove", "origin"],
+            check=False, cwd=FD_DIR)
+        subprocess.run([
+            "git", "remote", "add", "origin",
+            "https://github.com/aibasel/downward.git"
+        ], check=True, cwd=FD_DIR)
+        subprocess.run(
+            ["git", "fetch", "--depth", "1", "origin", FD_REVISION],
+            check=True, cwd=FD_DIR)
+        subprocess.run(
+            ["git", "reset", "--hard", "FETCH_HEAD"],
+            check=True, cwd=FD_DIR)
 
-            # now build FD
-            subprocess.run(["python", "build.py", "-j16"],
-                           check=True,
-                           cwd=FD_DIR)
+        build_jobs = os.environ.get('SLURM_CPUS_PER_TASK', '1')
+        subprocess.run([sys.executable, "build.py", "-j%s" % build_jobs],
+                       check=True,
+                       cwd=FD_DIR)
 
 
 def get_plan_file_path(root_dir, base_name):
