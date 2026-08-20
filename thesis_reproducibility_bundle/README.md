@@ -26,6 +26,8 @@ commands needed to train or evaluate the models.
   different system.
 - `container/image.sif` — the exact Apptainer image, stored with Git LFS.
 - `container/README.md` — how to download, verify, and use the image.
+- `requirements.txt` — the pinned Python 3.10.12 package environment exported
+  from the actual cluster virtual environment.
 
 ## Important result-status notes
 
@@ -62,8 +64,11 @@ JPype, TensorFlow, ENHSP/JPDDL, and the repository's `venv-asnets` environment.
 ## One-time setup
 
 ```bash
-git clone https://github.com/Bershco/numeric-asnets.git
-cd numeric-asnets
+git clone --depth 1 https://github.com/Bershco/numeric-asnets-thesis-artifacts.git
+cd numeric-asnets-thesis-artifacts
+
+# A normal clone downloads the Git LFS objects automatically. Run this only
+# if LFS was skipped or any pointer files remain unresolved.
 git lfs pull
 
 # Verify the bundled image.
@@ -82,9 +87,18 @@ apptainer exec \
 Inside the container:
 
 ```bash
+python3 -m venv ../venv-asnets
 source ../venv-asnets/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r ../thesis_reproducibility_bundle/requirements.txt
+python -m pip install -e .
 export PYTHONPATH="$(cd .. && pwd):${PYTHONPATH:-}"
 ```
+
+The virtual environment is created on the writable host filesystem while its
+Python interpreter and native dependencies come from the supplied image. On an
+existing BGU checkout, the already-created `venv-asnets` may be activated
+instead, but it is not required for a fresh installation.
 
 ## Cluster execution
 
@@ -117,7 +131,7 @@ Example: train one VH-off Block Grouping policy from the original training set.
   --workers 3 \
   --cpus 6 \
   --mem 48G \
-  --time 3-00:00:00 \
+  --time 1-00:00:00 \
   --eval
 ```
 

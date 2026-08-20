@@ -15,6 +15,11 @@ cd thesis_reproducibility_bundle/container
 sha256sum -c image.sif.sha256
 ```
 
+A normal Git LFS-aware clone already downloads the image. `git lfs pull` is a
+recovery command for clones made with LFS downloading disabled; running it
+again is harmless but normally unnecessary. `git lfs fsck` re-hashes all LFS
+objects and can take several minutes on a shared cluster filesystem.
+
 The compressed evaluation logs are also stored with Git LFS. A normal clone
 with Git LFS installed downloads both the image and those logs. If LFS objects
 were initially skipped, `git lfs pull` retrieves them later.
@@ -36,6 +41,11 @@ apptainer exec \
   ./image.sif \
   /bin/bash
 ```
+
+For a fresh account, create the Python environment inside the container using
+`../requirements.txt` as described in the bundle's main README. The
+requirements file was exported from the actual Python 3.10.12 experiment
+environment; the virtual environment itself is intentionally not committed.
 
 Do not substitute a different image without recording its digest and software
 changes; TensorFlow, Java/JPDDL, ENHSP, and native planner dependencies affect
