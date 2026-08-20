@@ -109,6 +109,8 @@ are harmless when running these CPU experiments.
 - `results/main_results_table.csv` — machine-readable copy of the same table.
 - `STATISTICAL_ANALYSIS.md` — what the current intervals mean, current
   replication limitations, and the recommended multi-seed design.
+- `STATISTICAL_REPLICATION_PLAN.md` — the audited five-domain seed gap, fixed
+  confirmatory seed set, required jobs, and planned confidence-interval/tests.
 - `logs/` — exact evaluation logs, named by domain, research question, stage,
   inference type, and Slurm job ID.
 - `weights/` — the stage-1 and selected stage-2 checkpoints used by those
