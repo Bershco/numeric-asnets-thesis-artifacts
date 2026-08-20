@@ -319,7 +319,7 @@ The cluster wrapper automatically validates a completed evaluation log when it
 contains an `[EVAL FINAL]` record. To validate manually:
 
 ```bash
-python asnets/tools/validate_eval_log.py \
+python tools/validate_eval_log.py \
   --log /path/to/evaluation.log \
   --domain block_grouping \
   --validator /path/to/VAL/build/bin/Validate
