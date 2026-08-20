@@ -91,14 +91,12 @@ python3 -m venv ../venv-asnets
 source ../venv-asnets/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r ../thesis_reproducibility_bundle/requirements.txt
-python -m pip install -e ../pddl-parser
 python -m pip install -e .
 export PYTHONPATH="$(cd .. && pwd):${PYTHONPATH:-}"
 ```
 
-`pddl_parser` version 1.2 is installed from the repository's bundled
-`pddl-parser/` source directory because that exact package is not published on
-PyPI.
+`pddl_parser` version 1.2 is installed from its pinned upstream Git commit
+because that exact package is not published on PyPI.
 
 The virtual environment is created on the writable host filesystem while its
 Python interpreter and native dependencies come from the supplied image. On an
