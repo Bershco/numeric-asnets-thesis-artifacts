@@ -1,0 +1,2 @@
+thesis_reproducibility_bundle/logs/**/*.log.gz filter=lfs diff=lfs merge=lfs -text
+thesis_reproducibility_bundle/container/image.sif filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,6 @@
+"Domain","Paper","Stage-1 policy","Stage-2 policy","Stage-1 MCTS","Stage-2 MCTS","Stage-1 policy","Stage-2 policy","Stage-1 MCTS","Stage-2 MCTS"
+"Block Grouping","17/20","17/20","15/20","18/20*","15/20 narrow (8/20 normal)","15/20","15/20","16/20 narrow","15/20 narrow (9/20 normal)"
+"Drone","9/20","6/20","4/20","6/20","7/20","10/20","13/20","16/20","16/20"
+"FO Counters","6/20","6/20","7/20","5/20","11/20","6/20","5/20","7/20","6/20"
+"Rover","7/20","4/20","4/20","6/20","4/20","4/20","4/20","5/20","8/20** (6/20 at 70 iterations)"
+"Counters","17/59","15/59","35/59","≥26/59, scheduler-limited","33/59 normal; ≥37/59 narrow","12/59","14/59","≥14/59, scheduler-limited","15/59"
