@@ -192,76 +192,97 @@ count without submitting anything.
 
 ## Stage-1 imitation training
 
-Example: train one VH-off Block Grouping policy from the original training set.
+Run these commands from the repository's `asnets/` directory inside Apptainer.
+The example below trains Drone with its domain-specific policy architecture.
 
 ```bash
-./cluster_reference/submit_training.sh \
-  --dom-block_grouping \
-  --original-only \
-  --override-arch comparison \
-  --vh-off \
-  --seed 42 \
+DOMAIN=drone
+POLICY_ARCH=experiments_numeric.architecture_2.drone
+SEED=42
+
+./run_experiment \
+  "$POLICY_ARCH" \
+  "experiments_numeric.domain.$DOMAIN" \
+  --original-training-set \
   --supervised-lr 0.003 \
   --max-opt-epochs 1000 \
-  --workers 3 \
-  --cpus 6 \
-  --mem 48G \
-  --time 1-00:00:00 \
-  --eval
+  --num-workers 3 \
+  --jpddl-max-heap 4g \
+  --random-seed "$SEED" \
+  --worker-logs \
+  --no-eval \
+  2>&1 | tee ../stage1_${DOMAIN}_seed${SEED}.log
 ```
 
-Omit `--vh-off` for VH-on/RQ3-style training. Domain-specific no-landmark
-architectures use `--domain-architecture policy` and must not be mixed with a
-checkpoint produced by a different landmark/input representation.
+This is VH-on/RQ3-style stage-1 training. Add `--disable-value-head` for a
+VH-off/RQ1 network. Replace both `DOMAIN` and `POLICY_ARCH` together; the
+available domain-specific modules are under
+`experiments_numeric/architecture_2/`. Do not load a checkpoint using a
+different policy architecture, landmark setting, or value-head mode.
 
 ## Stage-2 MCTS-guided training
 
-Stage 2 resumes from a stage-1 checkpoint. The principal campaigns used a
-learning rate of `0.0003`, 100 stage-2 epochs, and explicit policy-anchor
-coefficients recorded in `provenance/results_manifest.csv`.
+Stage 2 resumes training from a compatible stage-1 checkpoint and changes the
+exploration algorithm to MCTS. The established campaigns used learning rate
+`0.0003`, 100 stage-2 epochs, estimator coefficient `0.5`, and an explicitly
+selected anchor coefficient.
 
 ```bash
-./cluster_reference/submit_training.sh \
-  --dom-block_grouping \
-  --original-only \
-  --train-from /absolute/path/to/stage1_checkpoint \
-  --override-arch comparison_mcts_hadd_gbfs \
-  --vh-off \
+DOMAIN=drone
+MCTS_ARCH=experiments_numeric.architecture_2.drone_mcts
+STAGE1_CHECKPOINT=/absolute/path/to/stage1_checkpoint
+SEED=42
+ANCHOR_COEFF=0.1
+
+./run_experiment \
+  "$MCTS_ARCH" \
+  "experiments_numeric.domain.$DOMAIN" \
+  --resume-from "$STAGE1_CHECKPOINT" \
+  --resume-train \
+  --original-training-set \
   --use-estimator 0.5 \
-  --exploration-weight 0.1 \
-  --override-tree-sampling 0 \
-  --policy-anchor-kl-coeff 0.1 \
+  --mcts-exploration-weight 0.1 \
+  --sample-k-additional-states 0 \
+  --policy-anchor-kl-coeff "$ANCHOR_COEFF" \
   --supervised-lr 0.0003 \
   --max-opt-epochs 100 \
-  --seed 42 \
-  --workers 3 \
-  --cpus 6 \
-  --mem 48G \
-  --time 3-00:00:00
+  --num-workers 3 \
+  --jpddl-max-heap 4g \
+  --random-seed "$SEED" \
+  --worker-logs \
+  --no-eval \
+  2>&1 | tee ../stage2_${DOMAIN}_seed${SEED}.log
 ```
 
-Replace the architecture/teacher with the domain-specific values in the
-manifest. `--train-from` resumes training; `--eval-from` performs evaluation
-only.
+Add `--disable-value-head` when the stage-1 source is VH-off/RQ1; omit it for
+VH-on/RQ3. Use the matching `<domain>_mcts` architecture and the exact
+domain-specific coefficient selected in `provenance/results_manifest.csv`.
 
 ## Policy-only evaluation
 
-Use the policy architecture corresponding to the checkpoint, without the
-`_mcts` inference suffix and without `--eval-with-mcts`.
+The same policy-only command evaluates either a stage-1 or stage-2 checkpoint.
+Use the matching policy architecture without the `_mcts` suffix.
 
 ```bash
-./cluster_reference/submit_training.sh \
-  --dom-block_grouping \
-  --original-only \
-  --eval-from /absolute/path/to/checkpoint \
-  --override-arch comparison \
-  --vh-off \
-  --seed 42 \
-  --workers 3 \
-  --cpus 6 \
-  --mem 20G \
-  --time 04:00:00
+DOMAIN=drone
+POLICY_ARCH=experiments_numeric.architecture_2.drone
+CHECKPOINT=/absolute/path/to/checkpoint
+SEED=42
+
+./run_experiment \
+  "$POLICY_ARCH" \
+  "experiments_numeric.domain.$DOMAIN" \
+  --resume-from "$CHECKPOINT" \
+  --num-workers 3 \
+  --jpddl-max-heap 4g \
+  --random-seed "$SEED" \
+  --worker-logs \
+  2>&1 | tee ../policy_${DOMAIN}_seed${SEED}.log
 ```
+
+Add `--disable-value-head` for a VH-off/RQ1 or RQ2 checkpoint. Omit it for a
+VH-on/RQ3 or RQ4 checkpoint. Validate every completed policy log with VAL as
+shown below.
 
 ## MCTS evaluation
 
@@ -271,29 +292,36 @@ labelled narrow or search-budget variants; use the exact values in the
 manifest rather than assuming the normal configuration.
 
 ```bash
-./cluster_reference/submit_training.sh \
-  --dom-block_grouping \
-  --original-only \
-  --eval-from /absolute/path/to/checkpoint \
+DOMAIN=drone
+MCTS_ARCH=experiments_numeric.architecture_2.drone_mcts
+CHECKPOINT=/absolute/path/to/checkpoint
+SEED=42
+COMPLETION_FILE="../evaluation-state/${DOMAIN}_seed${SEED}.jsonl"
+mkdir -p ../evaluation-state
+
+./run_experiment \
+  "$MCTS_ARCH" \
+  "experiments_numeric.domain.$DOMAIN" \
+  --resume-from "$CHECKPOINT" \
   --eval-with-mcts \
-  --override-arch comparison_mcts_hadd_gbfs \
-  --vh-off \
   --use-estimator 0.5 \
-  --exploration-weight 0.1 \
+  --mcts-exploration-weight 0.1 \
   --mcts-expansion-size 20 \
   --mcts-iterations 70 \
   --eval-scheduling rolling \
   --eval-instance-timeout 21600 \
+  --eval-completion-file "$COMPLETION_FILE" \
   --jpddl-max-heap 4g \
-  --seed 42 \
-  --workers 3 \
-  --cpus 6 \
-  --mem 120G \
-  --time 3-00:00:00
+  --random-seed "$SEED" \
+  --num-workers 3 \
+  --worker-logs \
+  2>&1 | tee ../mcts_${DOMAIN}_seed${SEED}.log
 ```
 
-For VH-on/RQ4 evaluation, omit `--vh-off`. Keep at most three workers: MCTS
-inference is memory intensive.
+Add `--disable-value-head` for RQ2/VH-off and omit it for RQ4/VH-on. Keep at
+most three workers: MCTS inference is memory intensive. The normal values above
+must be replaced by the explicitly reported narrow or search-budget values
+when reproducing one of those labelled cells.
 
 ## Resume an interrupted evaluation
 
