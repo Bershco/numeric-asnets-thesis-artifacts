@@ -105,6 +105,14 @@ are harmless when running these CPU experiments.
 
 ## Contents
 
+- `results/advisor_followup_20260910/` — the current validation-led RQ1–RQ4
+  advisor package: RQ-separated tables and figures, generator-distribution
+  audit, Counters failure joins, proposed follow-ups, and job/log provenance.
+- `cluster_reference/advisor_followup_20260910/` — the scripts and Slurm
+  wrappers that reproduce the package and the approved external-generator
+  policy screen.
+- `provenance/advisor_followup_20260910/` — the experiment registry and the
+  trajectory-level Counters audit used by the package.
 - `results/main_results_table.xlsx` — the single showcased results sheet.
 - `results/main_results_table.csv` — machine-readable copy of the same table.
 - `STATISTICAL_ANALYSIS.md` — what the current intervals mean, current
