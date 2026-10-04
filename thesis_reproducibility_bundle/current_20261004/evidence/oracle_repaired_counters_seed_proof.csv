@@ -1,0 +1,11 @@
+domain,vh,seed,instances,policy,mcts,oracle,cohort
+counters,on,534933607,59,38,16,38,repaired_teacher_correct_HMRP_5x20
+counters,on,923500475,59,24,28,28,repaired_teacher_correct_HMRP_5x20
+counters,on,1073581256,59,59,24,59,repaired_teacher_correct_HMRP_5x20
+counters,on,1239739722,59,14,15,15,repaired_teacher_correct_HMRP_5x20
+counters,on,1472491096,59,59,16,59,repaired_teacher_correct_HMRP_5x20
+counters,on,1510771779,59,59,16,59,repaired_teacher_correct_HMRP_5x20
+counters,on,1963100312,59,59,19,59,repaired_teacher_correct_HMRP_5x20
+counters,on,1972442430,59,59,25,59,repaired_teacher_correct_HMRP_5x20
+counters,on,2011206605,59,12,13,13,repaired_teacher_correct_HMRP_5x20
+counters,on,2082152039,59,59,39,59,repaired_teacher_correct_HMRP_5x20

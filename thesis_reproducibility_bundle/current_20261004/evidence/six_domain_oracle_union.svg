@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="670" viewBox="0 0 1700 670">
+<rect width="1700" height="670" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#24313c}.tick{font-size:14px}.label{font-size:17px}.value{font-size:14px;font-weight:bold}</style>
+<text x="65" y="42" font-size="27">Stage-1 policy, fixed MCTS and instance-wise oracle</text>
+<text x="65" y="70" font-size="17">Six domains · ten matched seeds per cell · repaired Counters VH-on replaces the old teacher-confounded cohort</text>
+<rect x="550" y="89" width="18" height="18" fill="#326eaa"/>
+<text x="576" y="104" font-size="17">Policy</text>
+<rect x="790" y="89" width="18" height="18" fill="#dd8444"/>
+<text x="816" y="104" font-size="17">Fixed MCTS (6h)</text>
+<rect x="1030" y="89" width="18" height="18" fill="#38986a"/>
+<text x="1056" y="104" font-size="17">Oracle union</text>
+<text x="437.5" y="151" text-anchor="middle" font-size="23">Value head OFF</text>
+<line x1="75" y1="550.0" x2="800" y2="550.0" stroke="#e1e6ea"/>
+<text x="65" y="555.0" text-anchor="end" class="tick">0%</text>
+<line x1="75" y1="475.0" x2="800" y2="475.0" stroke="#e1e6ea"/>
+<text x="65" y="480.0" text-anchor="end" class="tick">20%</text>
+<line x1="75" y1="400.0" x2="800" y2="400.0" stroke="#e1e6ea"/>
+<text x="65" y="405.0" text-anchor="end" class="tick">40%</text>
+<line x1="75" y1="325.0" x2="800" y2="325.0" stroke="#e1e6ea"/>
+<text x="65" y="330.0" text-anchor="end" class="tick">60%</text>
+<line x1="75" y1="250.0" x2="800" y2="250.0" stroke="#e1e6ea"/>
+<text x="65" y="255.0" text-anchor="end" class="tick">80%</text>
+<line x1="75" y1="175.0" x2="800" y2="175.0" stroke="#e1e6ea"/>
+<text x="65" y="180.0" text-anchor="end" class="tick">100%</text>
+<rect x="88.41666666666666" y="244.375" width="27" height="305.625" fill="#326eaa"/>
+<text x="101.91666666666666" y="236.375" text-anchor="middle" class="value">16.3</text>
+<rect x="120.41666666666666" y="261.25" width="27" height="288.75" fill="#dd8444"/>
+<text x="133.91666666666666" y="253.25" text-anchor="middle" class="value">15.4</text>
+<rect x="152.41666666666666" y="231.25" width="27" height="318.75" fill="#38986a"/>
+<text x="165.91666666666666" y="223.25" text-anchor="middle" class="value">17.0</text>
+<text x="135.41666666666666" y="581" text-anchor="middle" class="label">Block Grouping</text>
+<text x="135.41666666666666" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="209.25" y="439.375" width="27" height="110.625" fill="#326eaa"/>
+<text x="222.75" y="431.375" text-anchor="middle" class="value">5.9</text>
+<rect x="241.25" y="420.625" width="27" height="129.375" fill="#dd8444"/>
+<text x="254.75" y="412.625" text-anchor="middle" class="value">6.9</text>
+<rect x="273.25" y="415.0" width="27" height="135.0" fill="#38986a"/>
+<text x="286.75" y="407.0" text-anchor="middle" class="value">7.2</text>
+<text x="256.25" y="581" text-anchor="middle" class="label">Drone</text>
+<text x="256.25" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="330.0833333333333" y="471.25" width="27" height="78.75" fill="#326eaa"/>
+<text x="343.5833333333333" y="463.25" text-anchor="middle" class="value">4.2</text>
+<rect x="362.0833333333333" y="403.75" width="27" height="146.25" fill="#dd8444"/>
+<text x="375.5833333333333" y="395.75" text-anchor="middle" class="value">7.8</text>
+<rect x="394.0833333333333" y="401.875" width="27" height="148.125" fill="#38986a"/>
+<text x="407.5833333333333" y="393.875" text-anchor="middle" class="value">7.9</text>
+<text x="377.0833333333333" y="581" text-anchor="middle" class="label">FO Counters</text>
+<text x="377.0833333333333" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="450.9166666666667" y="475.0" width="27" height="75.0" fill="#326eaa"/>
+<text x="464.4166666666667" y="467.0" text-anchor="middle" class="value">4.0</text>
+<rect x="482.9166666666667" y="456.25" width="27" height="93.75" fill="#dd8444"/>
+<text x="496.4166666666667" y="448.25" text-anchor="middle" class="value">5.0</text>
+<rect x="514.9166666666667" y="456.25" width="27" height="93.75" fill="#38986a"/>
+<text x="528.4166666666667" y="448.25" text-anchor="middle" class="value">5.0</text>
+<text x="497.9166666666667" y="581" text-anchor="middle" class="label">Rover</text>
+<text x="497.9166666666667" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="571.75" y="343.43220338983053" width="27" height="206.5677966101695" fill="#326eaa"/>
+<text x="585.25" y="335.43220338983053" text-anchor="middle" class="value">32.5</text>
+<rect x="603.75" y="386.6525423728814" width="27" height="163.34745762711864" fill="#dd8444"/>
+<text x="617.25" y="378.6525423728814" text-anchor="middle" class="value">25.7</text>
+<rect x="635.75" y="333.89830508474574" width="27" height="216.10169491525423" fill="#38986a"/>
+<text x="649.25" y="325.89830508474574" text-anchor="middle" class="value">34.0</text>
+<text x="618.75" y="581" text-anchor="middle" class="label">Counters</text>
+<text x="618.75" y="605" text-anchor="middle" font-size="14">/59</text>
+<rect x="692.5833333333334" y="244.375" width="27" height="305.625" fill="#326eaa"/>
+<text x="706.0833333333334" y="236.375" text-anchor="middle" class="value">16.3</text>
+<rect x="724.5833333333334" y="255.625" width="27" height="294.375" fill="#dd8444"/>
+<text x="738.0833333333334" y="247.625" text-anchor="middle" class="value">15.7</text>
+<rect x="756.5833333333334" y="216.25" width="27" height="333.75" fill="#38986a"/>
+<text x="770.0833333333334" y="208.25" text-anchor="middle" class="value">17.8</text>
+<text x="739.5833333333334" y="581" text-anchor="middle" class="label">MPrime</text>
+<text x="739.5833333333334" y="605" text-anchor="middle" font-size="14">/20</text>
+<text x="1262.5" y="151" text-anchor="middle" font-size="23">Value head ON</text>
+<line x1="900" y1="550.0" x2="1625" y2="550.0" stroke="#e1e6ea"/>
+<text x="890" y="555.0" text-anchor="end" class="tick">0%</text>
+<line x1="900" y1="475.0" x2="1625" y2="475.0" stroke="#e1e6ea"/>
+<text x="890" y="480.0" text-anchor="end" class="tick">20%</text>
+<line x1="900" y1="400.0" x2="1625" y2="400.0" stroke="#e1e6ea"/>
+<text x="890" y="405.0" text-anchor="end" class="tick">40%</text>
+<line x1="900" y1="325.0" x2="1625" y2="325.0" stroke="#e1e6ea"/>
+<text x="890" y="330.0" text-anchor="end" class="tick">60%</text>
+<line x1="900" y1="250.0" x2="1625" y2="250.0" stroke="#e1e6ea"/>
+<text x="890" y="255.0" text-anchor="end" class="tick">80%</text>
+<line x1="900" y1="175.0" x2="1625" y2="175.0" stroke="#e1e6ea"/>
+<text x="890" y="180.0" text-anchor="end" class="tick">100%</text>
+<rect x="913.4166666666666" y="251.875" width="27" height="298.125" fill="#326eaa"/>
+<text x="926.9166666666666" y="243.875" text-anchor="middle" class="value">15.9</text>
+<rect x="945.4166666666666" y="246.25" width="27" height="303.75" fill="#dd8444"/>
+<text x="958.9166666666666" y="238.25" text-anchor="middle" class="value">16.2</text>
+<rect x="977.4166666666666" y="238.74999999999994" width="27" height="311.25000000000006" fill="#38986a"/>
+<text x="990.9166666666666" y="230.74999999999994" text-anchor="middle" class="value">16.6</text>
+<text x="960.4166666666666" y="581" text-anchor="middle" class="label">Block Grouping</text>
+<text x="960.4166666666666" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="1034.25" y="454.375" width="27" height="95.62499999999999" fill="#326eaa"/>
+<text x="1047.75" y="446.375" text-anchor="middle" class="value">5.1</text>
+<rect x="1066.25" y="355.0" width="27" height="195.0" fill="#dd8444"/>
+<text x="1079.75" y="347.0" text-anchor="middle" class="value">10.4</text>
+<rect x="1098.25" y="353.125" width="27" height="196.875" fill="#38986a"/>
+<text x="1111.75" y="345.125" text-anchor="middle" class="value">10.5</text>
+<text x="1081.25" y="581" text-anchor="middle" class="label">Drone</text>
+<text x="1081.25" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="1155.0833333333333" y="480.625" width="27" height="69.375" fill="#326eaa"/>
+<text x="1168.5833333333333" y="472.625" text-anchor="middle" class="value">3.7</text>
+<rect x="1187.0833333333333" y="443.125" width="27" height="106.875" fill="#dd8444"/>
+<text x="1200.5833333333333" y="435.125" text-anchor="middle" class="value">5.7</text>
+<rect x="1219.0833333333333" y="443.125" width="27" height="106.875" fill="#38986a"/>
+<text x="1232.5833333333333" y="435.125" text-anchor="middle" class="value">5.7</text>
+<text x="1202.0833333333333" y="581" text-anchor="middle" class="label">FO Counters</text>
+<text x="1202.0833333333333" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="1275.9166666666667" y="478.75" width="27" height="71.25" fill="#326eaa"/>
+<text x="1289.4166666666667" y="470.75" text-anchor="middle" class="value">3.8</text>
+<rect x="1307.9166666666667" y="467.5" width="27" height="82.50000000000001" fill="#dd8444"/>
+<text x="1321.4166666666667" y="459.5" text-anchor="middle" class="value">4.4</text>
+<rect x="1339.9166666666667" y="467.5" width="27" height="82.50000000000001" fill="#38986a"/>
+<text x="1353.4166666666667" y="459.5" text-anchor="middle" class="value">4.4</text>
+<text x="1322.9166666666667" y="581" text-anchor="middle" class="label">Rover</text>
+<text x="1322.9166666666667" y="605" text-anchor="middle" font-size="14">/20</text>
+<rect x="1396.75" y="269.06779661016947" width="27" height="280.93220338983053" fill="#326eaa"/>
+<text x="1410.25" y="261.06779661016947" text-anchor="middle" class="value">44.2</text>
+<rect x="1428.75" y="415.8898305084746" width="27" height="134.11016949152543" fill="#dd8444"/>
+<text x="1442.25" y="407.8898305084746" text-anchor="middle" class="value">21.1</text>
+<rect x="1460.75" y="265.2542372881356" width="27" height="284.7457627118644" fill="#38986a"/>
+<text x="1474.25" y="257.2542372881356" text-anchor="middle" class="value">44.8</text>
+<text x="1443.75" y="581" text-anchor="middle" class="label">Counters</text>
+<text x="1443.75" y="605" text-anchor="middle" font-size="14">/59 · repaired</text>
+<rect x="1517.5833333333335" y="255.625" width="27" height="294.375" fill="#326eaa"/>
+<text x="1531.0833333333335" y="247.625" text-anchor="middle" class="value">15.7</text>
+<rect x="1549.5833333333335" y="250.0" width="27" height="300.0" fill="#dd8444"/>
+<text x="1563.0833333333335" y="242.0" text-anchor="middle" class="value">16.0</text>
+<rect x="1581.5833333333335" y="227.5" width="27" height="322.5" fill="#38986a"/>
+<text x="1595.0833333333335" y="219.5" text-anchor="middle" class="value">17.2</text>
+<text x="1564.5833333333335" y="581" text-anchor="middle" class="label">MPrime</text>
+<text x="1564.5833333333335" y="605" text-anchor="middle" font-size="14">/20</text>
+<text x="65" y="647" font-size="16">Bar height: coverage %. Labels: mean solved instances per seed. Oracle is a union, not an implemented selector.</text>
+</svg>

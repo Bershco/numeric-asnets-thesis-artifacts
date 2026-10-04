@@ -1,0 +1,16 @@
+{
+  "release": "current_20261004",
+  "source_head": "58bcbedb8821199080ac8f6d41989574f38b239a",
+  "source_worktree": "dirty; selected runtime file hashes are authoritative",
+  "historical_cells": 24,
+  "historical_seed_rows": 240,
+  "historical_terminal_identities": 6360,
+  "current_repaired_population_separate": true,
+  "v2_labels": 12000,
+  "bundled_legacy_weight_directory_files": 65,
+  "bundled_legacy_networks": 20,
+  "runtime_and_problem_files": 671,
+  "full_native_environment_rebuilt": false,
+  "scientific_capture_idt": "2026-10-04 11:43:02 IDT",
+  "limitations": "Cluster source paths are provenance, not portable checkpoint paths. Current networks must be retrieved by recorded identity/hash; legacy bundled weights are not substitutes."
+}

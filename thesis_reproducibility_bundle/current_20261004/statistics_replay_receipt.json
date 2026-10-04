@@ -1,0 +1,9 @@
+{
+  "seed_rows": 240,
+  "historical_cells": 24,
+  "terminal_identities": 6360,
+  "tests": 52,
+  "minimum_two_sided_p": 0.001953125,
+  "minimum_first_Holm_adjusted_p": 0.1015625,
+  "all_exact_statistics_reproduced": true
+}

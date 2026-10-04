@@ -1,0 +1,13 @@
+domain,vh,seeds,instances_per_seed,policy,mcts,oracle_lower,oracle_upper,all_membership_exact,cohort
+block_grouping,off,10,20,16.3,15.4,17.0,17.0,True,historical_actual_executed_estimator
+block_grouping,on,10,20,15.9,16.2,16.6,16.6,True,historical_actual_executed_estimator
+drone,off,10,20,5.9,6.9,7.2,7.2,True,historical_actual_executed_estimator
+drone,on,10,20,5.1,10.4,10.5,10.5,True,historical_actual_executed_estimator
+fo_counters,off,10,20,4.2,7.8,7.9,7.9,True,historical_actual_executed_estimator
+fo_counters,on,10,20,3.7,5.7,5.7,5.7,True,historical_actual_executed_estimator
+rover,off,10,20,4.0,5.0,5.0,5.0,True,historical_actual_executed_estimator
+rover,on,10,20,3.8,4.4,4.4,4.4,True,historical_actual_executed_estimator
+counters,off,10,59,32.5,25.7,34.0,34.0,True,historical_actual_executed_estimator
+counters,on,10,59,44.2,21.1,44.8,44.8,True,repaired_teacher_correct_HMRP_5x20
+mprime,off,10,20,16.3,15.7,17.8,17.8,True,historical_actual_executed_estimator
+mprime,on,10,20,15.7,16.0,17.2,17.2,True,historical_actual_executed_estimator

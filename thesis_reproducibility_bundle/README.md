@@ -1,5 +1,11 @@
 # Numeric ASNet thesis reproducibility bundle
 
+**Current six-domain release:** [current_20261004/README.md](current_20261004/README.md).
+The text and selected evidence below describe the original five-domain legacy
+bundle, not the current full MAIN-VAL table. They are retained unchanged as
+historical provenance. The new release includes MPrime, repaired Counters,
+portable evaluation/statistics entrypoints and explicit checkpoint limitations.
+
 This directory packages the evidence and trained networks behind the five-domain
 RQ1–RQ4 results table. It is intentionally self-contained at the experiment
 level: the repository contains the source code, while this directory contains

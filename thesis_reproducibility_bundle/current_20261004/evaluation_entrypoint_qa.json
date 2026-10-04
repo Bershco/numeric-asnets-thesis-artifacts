@@ -1,0 +1,258 @@
+{
+  "dry_run_cases": [
+    {
+      "domain": "block_grouping",
+      "vh": "off",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "block_grouping",
+      "vh": "off",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "block_grouping",
+      "vh": "off",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "block_grouping",
+      "vh": "on",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "block_grouping",
+      "vh": "on",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "block_grouping",
+      "vh": "on",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "counters",
+      "vh": "off",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "counters",
+      "vh": "off",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "counters",
+      "vh": "off",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "counters",
+      "vh": "on",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "counters",
+      "vh": "on",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "counters",
+      "vh": "on",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "drone",
+      "vh": "off",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "drone",
+      "vh": "off",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "drone",
+      "vh": "off",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "drone",
+      "vh": "on",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "drone",
+      "vh": "on",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "drone",
+      "vh": "on",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "fo_counters",
+      "vh": "off",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "fo_counters",
+      "vh": "off",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "fo_counters",
+      "vh": "off",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "fo_counters",
+      "vh": "on",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "fo_counters",
+      "vh": "on",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "fo_counters",
+      "vh": "on",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "mprime",
+      "vh": "off",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "mprime",
+      "vh": "off",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "mprime",
+      "vh": "off",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "mprime",
+      "vh": "on",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "mprime",
+      "vh": "on",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "mprime",
+      "vh": "on",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "rover",
+      "vh": "off",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "rover",
+      "vh": "off",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "rover",
+      "vh": "off",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "rover",
+      "vh": "on",
+      "inference": "policy",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "rover",
+      "vh": "on",
+      "inference": "fixed",
+      "dry_run_passed": true,
+      "executed": false
+    },
+    {
+      "domain": "rover",
+      "vh": "on",
+      "inference": "pw",
+      "dry_run_passed": true,
+      "executed": false
+    }
+  ],
+  "heavy_runtime_rebuilt": false,
+  "scientific_evaluations_started": 0
+}

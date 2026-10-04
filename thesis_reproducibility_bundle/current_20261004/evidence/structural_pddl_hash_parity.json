@@ -1,0 +1,1120 @@
+{
+  "instances": 159,
+  "byte_identical": 0,
+  "all_production_local_newline_normalized_match": true,
+  "checks": [
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_5_25_6_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "b9363f1e006702ada317b4eb1ca02f3954193289a785bb735b6f916a19fbc9d2",
+      "local_sha256": "a3433f4f16a8d73ee49a53df235a57d38aec4d07e7342d7e3582af62730dca98"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_7_10_2_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "8228c9fe11afb6d803f022a273509adcaaa8c3063f08eccafdc802be9b46ba36",
+      "local_sha256": "a563122759cf04aaf2bf331a5032c803572cb8c31fc42c30855e601b792fc64f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_11_10_2_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "2cc16f65eadc51283b07b6336fd163e72572ffb98395641dfa4d9175b45acf78",
+      "local_sha256": "47ce3915409bb77cb8ed27b65cc7386b54f80ce93f94a863934eeeaffbadca92"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_11_30_7_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9359cf14af29368ec815465784fb0fb376b479bbae78c69035973e563cb9da95",
+      "local_sha256": "6e43d2c581da17c9f49708f24e4dd6470413954381476865ada1b44ce9c737b7"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_11_35_8_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "493239919894e850bb8c39af73f81a0baa0e672aa95d79566a9ac76892aa2669",
+      "local_sha256": "369f579b57d1b43841bcef531391ad5960e9eed28089b58d78f6dac7e1494de2"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_11_40_10_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "7b71eb7fe63ea2226321d52d949a4309b4b915d08efa782746e3520dadfac6f7",
+      "local_sha256": "a679649405c8f4b5b82746e1df5c1a550eb90e8d09af41c7aa51e3454bf1fa5d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_15_10_2_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f43be3fc13603b63e53c5d9ed57b3195c9bd01ed94018ce549cd0115589270c2",
+      "local_sha256": "2d3220e58b7f026066a1b5edf02a5af7a073e0d5c5bb08d6d755491ac212e706"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_15_25_6_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "62abdd02eba4ea73175ef9797a385eeeea7f4ddf0301a75c3da3a0c3fa81e641",
+      "local_sha256": "fb52e0bd9370cebde418bb6f3baca8cf8b1e6fce0ab0717e85b948bd7f2de0b8"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_5_2_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d68b7b7b0bcd00b6f1a837bb35dbcd03bed049c68180a6783d3bb26c49525030",
+      "local_sha256": "52dba995b29ec640c29b6dea2c4828a9e4697eb37fc76a31aa006f7f1091039d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_5_2_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d1dc132f6aa4adc4b9e25a2b0d98db639241b207594201776e25b7422471b2e8",
+      "local_sha256": "a43c0d4c3555481a894de30ba6fae48d2d9fd24ec13201c3d8c6949c32143ea4"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_10_2_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "45f043a08c2e14f7dd1eac428df1dad4813d6b9797134ca17d9d04557ec33f01",
+      "local_sha256": "0b65beca792b95c3b25af74dfc264af1c2b6e0151543aa1205c42a17f3eab2a4"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_10_2_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "0222a5e37111c30d8c2c45f0e13e4e4e197205563adadce0589210e6ea1f2aeb",
+      "local_sha256": "a61a0b9d801843db9ea630a32554daec286fe33fe471a635c04bbb47647f6416"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_15_3_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9118d75ac67180ef78b08f0c22e494e6d10750d698c07c4138d41cf2a13c4f2f",
+      "local_sha256": "f3428ed107f4d0170c18314b78f24ce8b600ff09af4deaee8ac0dad0cb730e9e"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_30_7_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f0e09e83feb80515c71f4b3ccce7f19a7be6b75495ffd7bf6a82d0f493723e76",
+      "local_sha256": "42c495e1509b04b9f1d026d8c3ae9d03631bb9c6fdfe041a4cbb3810bf5306f6"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_20_40_10_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d24bd6737eeae98c5a02910948ad52ab8008f2a7dff69b45a3bb89c233da5908",
+      "local_sha256": "1c5b1584fa66aabdb704beeb6ee5f615e9f744fca9e7a72af932fcd5a224cb20"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_25_15_3_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9e482d4f62787a124fb293843ba85098d7b2322d609c719d3767875d76fe669b",
+      "local_sha256": "13e42a931ffa0de2e82102f0177ac3f50a232b57a5ebb0b4067800095ed3743c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_25_35_8_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f223df54136a8c4b7bae4aa4919a854a531603c45d41909b1e7c25040b65c8d7",
+      "local_sha256": "85d9e71540d5045baf176b9858a9be3e58710670fcd6f6ed12724d0bcb2c4c0d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_25_40_10_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "24ca8726fd5f7c41e34b39da9ddcd9602fa80c61fc24b2a542a3d8cd95f52061",
+      "local_sha256": "a37811df15e10fde437978ce7e9bae54b70e70f0d41dc5476be79c0dd6de5362"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_100_20_5_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e1056525637a29e7cd5fed94df38791136a346ad38ff98540eeef77d9b936b77",
+      "local_sha256": "906e83f6d665e3b8e57c5fb00e3e1d5475582ff839ac5a521242e73b477d17bc"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/instances/instance_100_25_6_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3d6d45ece347dd8ec124c21c48a51ccf8d3c639d85b0c04f9c4f691873fc276d",
+      "local_sha256": "622b3c7d1cdef9cd125effcef203414047b40067743e312b3e0b09f5b1763a79"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "92142eba9dbc3272f17bad71a462959ebd49ba8d8511a6976f04f1c0bd0b2c2b",
+      "local_sha256": "8e2b3f4d9a397c62d02d286bacdb87c26a4ea869f0d6930917c19ed9e52953b2"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "02c9f4ec93d3a713f5496e90f2cc049729a2fb39a19556e222e0e79a46514a85",
+      "local_sha256": "662e4c2cd1743fd9e277d680c7c7967a0411f667f7acfe1d2ec11b1f0bf0ffa7"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "01ac22a5b3c0f25fc3996046fb3aff3a7d3a1eff39f6f4b68d013db996a392b1",
+      "local_sha256": "2c60b7d937aadf8b2c42958389f46e735062db49cbaee6953282d903710ccceb"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_5.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "5519cd4d7573f8a3c2267c470307e7744c7be74c3963b98771b6d5f841512e38",
+      "local_sha256": "0ce283d2e8c4478bc0ed6e7e12e23c02d3710f12e5fc285484624e925118cee0"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_6.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3aec2d7b7b1b2451b9249d41e36c3f348dbf6d2234b887caadaeffa0dbe4f34d",
+      "local_sha256": "c44cf16243b776212fafd5ba71b9bb57490c89117c5e226d4f2dfa4ead5455eb"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_7.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "12f8e7108bbe79bd79fc0779a573d7b5e7002dd9d0950f96017b3201cb8b2d9b",
+      "local_sha256": "7007e7bd01b7cf6419aee9b876bf62e0e74002ef3d23c376d5d6d7adfd801ed4"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_8.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "bf8253408d8f7f1e0dcc2b5704ad11e3ca8e7066dcca838a65e786a229314c6f",
+      "local_sha256": "71fdb2fc499fcb9f6bc4b2fb6c7c3fb83a97cce23509bccf9af4dc60ed2485c3"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_9.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "1f20e82e80b99788dc6c7d2f315561ba644b0be9d786eb0c730695a08df98369",
+      "local_sha256": "88c12574349ac48a0ba2099cc0ddc0cd04b14e4e5cb5f090cc754229c681445a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_10.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "8fc98fb6df5e34ad4bd0f386c28a8f44e0706d4e2b2a524fea61ecffea211dbe",
+      "local_sha256": "79fa9381f2dec9e24a29b3f8fff6472fe712c2e8ed7bf224240a5f141755cc73"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_11.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "cccc10a56212f75f6cc0fcca8a7be5c3c18256317df02f515db11e431f132e4e",
+      "local_sha256": "911f730ab58ec479c911ff191346703140fdb8dbc98b60c640247a45fadf1b4b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_12.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "969f56fbff01c4ae686a2967d9e4a92376ac708e8bab39e036e3f293010fb0f7",
+      "local_sha256": "233c415958f36c419714dbf17dccc760cf3f2ba72165ae1408f0034daf949052"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_13.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "74be85ccab44a82440a10224e6ef55c79a6307ff5910ca081e7c476422d23d8f",
+      "local_sha256": "7765ec4192499f5cae5eec4f0e5c2a820284b6f0e0062cafc7e986b7d5522fd6"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_14.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "812aeaaccdfd131373418e4b882fab96f3711750fed7fb40accc683e31701348",
+      "local_sha256": "a1069ec43c342b58ada06c37f67fe218ef1218e951591b83da0b2136d59751db"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_15.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "06ff8e316ee79248913c080bef29b20f0509552e7d76524ea9a02ff143efdcf1",
+      "local_sha256": "ec02001392d225e41ba21d826d044ebada181e3acf1f9efbdef80ababd4214a3"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_16.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "702126d879221ce04cc62adeaa350743eb151fef1ceaa325c4d3a9b9cfa70bcb",
+      "local_sha256": "af1184326e360fa1de7449f4f5555e496ade425850f599c471e3411a1ca256ab"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_17.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e7438ccc5b1a4edf1e05d6d528da5032df1d0affe7c9380b7cc400343e08b157",
+      "local_sha256": "1b1023a48011ca90696bdd5a2d431c324dbaed2f35e101bc60c239a7a3d3aec8"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_18.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4479655667f6463021c555c4462efec40f39424d2432ddeb2823b119ddcaea4d",
+      "local_sha256": "fddc3a4fa5eaab35cecd6672b14c4a5948de8764b207b997b93283d1b2de2a82"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_19.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "6677825f19fca71f85430900416733ad2e9ead444ac117acd916333574b1ffc4",
+      "local_sha256": "f69c0748478f58a18e401745c9f679fc67766c58b0d9c78489fc7847d2d24799"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_20.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4cedb20e8d20dcf7b34f98acf8a95ea905ea6b305d1028155a838bc5a4ef4df8",
+      "local_sha256": "3d9ec7c2e9fa948c2f65b5120a82e7555c75db8ced3b56755715661c663a6cfe"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_21.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "ba7133b128bf6c2d5ebbc1a6ff1c99ea1f3271e14b6f0bc03ea835a5a9a19a25",
+      "local_sha256": "e0214ddf741a4e26b1e5f649e7f4a2ed76ccedfd6acb967fa45e253950488ede"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_22.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d0b4db498ac22debcb27151a9a5ac6c27410e0f4717ffcd148227d1804130bd3",
+      "local_sha256": "33c645129ff8f46ec0123bafd1fd28090e3ad8811e1703718acd4997e417f81f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_23.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "edb869d96d5bf8bdc9eb767518792a53e3134558bf6929ddc986177ab42addc6",
+      "local_sha256": "c01563dedc80c4f228cf83c46832f616a50c3baa442b302161d65894c9b0af89"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_24.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "344741cc9c9a7c02d339ddc0a4568e497e81dcf4cab279aed2eb02cc4426f310",
+      "local_sha256": "8484be03aee277e525054375bac18015e1c24f81ab9e90bb7d688030c2e73577"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_25.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "95193f5c0c0e48136e90535cf01bd13c82e0b1a093d9e98d1d8b86a3e2ba395d",
+      "local_sha256": "3f8938032e7ceee2865c4f889f39a7d176c2c07cedebea1bff916eab18abf088"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_26.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "06ec117b2d293ee5e0ecda034c0b7474045e410906ac0a98b0357252bc29a6eb",
+      "local_sha256": "350b0ba18fdeb0942c90628037a8cad6fa48346b6e746cba072c87010d546b7b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_27.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4721a5f0d3b022a136d5b1b5f4070ded365ffbde5f2528b6f337dc638e4b3960",
+      "local_sha256": "b46b55a74fd16fcb2b860d507598d7ab29f7c75f120eb9e79d0d3f70d120a90b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_28.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e9851cc9990c0c949bf43ce378156ce8cd926f0c4b066cb141130fdb1470c1c0",
+      "local_sha256": "2302a3663c1cd1a99584b583d14e218b136f8330172cc8e8f40b5ee2db81aa1e"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_29.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "ca33c894365b251bff44cb097d8e1a09df4cdfe573847b9b6c38700315e8d4a7",
+      "local_sha256": "414bdd8f6a62e27db1cf0f0c6bd86abfed7d1249b9db4580e6a66060546e425a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_30.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4073b91cbef4d7ef8059e9a9b5df5425150281a1c908112f8c0a4181e46ff393",
+      "local_sha256": "3973ba6e7bc04aff8d4f81bee6fe4220f33abfca506cf857452f79eaad2d0c71"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_31.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3347704e0cc3d0d5cd05e3e42b1418c73c8bb55680f019815d72ab696f2e3204",
+      "local_sha256": "fd574001d5607330e26e0d1f8f0a0b9d333d3091f8fbd3fb1426a356977eb815"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_32.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "83ed07f1f64ccc6e3519a31ff71539b0d5a129e6044dffe2d063da1af2069196",
+      "local_sha256": "9c2378e4156f416071eea05de53d765cc907154f8e217a3560d141c38c48a0ec"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_33.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9730f3c49f90e54fbb7e01048d2c5904bc30c9bfc7e9a4344a3268549eb94f05",
+      "local_sha256": "44c8f6de2a108616565aa92aa81922ff3e4ec2c6adfcdfd77fd852e39826d45c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_34.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "a864dc2dd996d0844a50941c4b208df270b902cb3c300393ea0a1c260e84375b",
+      "local_sha256": "47cb0deeadd1784f92fe049a674c22cb7b7c8c676e15d663f103dcca1c20d8ea"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_35.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "acf431de2b874bef9a653c33ef99bb865ba54c93e558aa5356d25ee7a58d5cdd",
+      "local_sha256": "2ffe2b3f0aabf4acffe841f0a8b92e2f6a4ff610bd0f9f2f22a4e248bbbea244"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_36.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "a40bf21fd1085fb25d35d100f07529e068a59587ad05f04b3b513435d1d3414e",
+      "local_sha256": "825c2bf14b4a26f35ed3fc64eb538fdf919ce24c639f62134cab613bc85c5fe1"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_37.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d206f837e58c0d17ae6448022ffd69d3db39a19cf48f45d1b6ef7abd2b44fa47",
+      "local_sha256": "e2a9d5cfdcd466b62a36d035db3d2df8808e727c340baa816820df370101e7b7"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_38.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "431c19322c0abd8acbf40859b877dcfd1f2b6c9d78f0831ea8b4cdf488a51a3e",
+      "local_sha256": "22294f581a7b751dfeb13a560e207533ce651429107bcd2e43d17771239bdbcd"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_39.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "a2f08b6794439848c380f79a0b6bbdd18d7b2df961f7c391fd98589ff6b7df9f",
+      "local_sha256": "356b2fa9cceaf272790f430a757432d83b577e6d41a9d8b942d029d05786992c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_40.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "36210314274cb05862b682e8fe467b87da4726f9a7fc1237b55368886f38d6c5",
+      "local_sha256": "64c8723100ea3f71e0ab3d4af7e77b7ac48c1be91c347b5f6a712718ec5c7a51"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_41.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "b75e9cb9f3b3104a426fcfeaebd0632b4576209ff57006d16573a6ac2077e324",
+      "local_sha256": "477884845b5f6ff509b15bbd62cce24d473453bf8809edaf1d414d0e23e08b9f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_42.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "57e75dfd989ccd966b7a9769d37f04f22b24c07ae473ad33b0c4c115db6c828e",
+      "local_sha256": "47d48fd73beef18579de46bb7e5eb9cc17b23e5e56a9367a1880c94bba42cf7e"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_43.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "8099fa82275c3d1cd4634e7c88109513f5456888b8e949a3be464f9e4f9b89ee",
+      "local_sha256": "568a4fb12542606d8e08d5c40f5bf922344d1960f1ff2ba766d15fc273aec9e0"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_44.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9e62b5d789ff42c0fd749650b41b3be611be77c81e0aafc6b8aebd9f93fe9d36",
+      "local_sha256": "de6a43fb8733b482bffd8dc4e378f22c04f614918ceb8373e9f11b97298a0875"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_45.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "bd497f46d341fd92cb12fc6c6e99928f1b274b99cfc82f69462cbb4ff0f7473d",
+      "local_sha256": "9cb9cae10cd83a827d3b1bceab039ca75fd3cb68584c3e419ca0cf7e41b1d84d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_46.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "2191a481b46271c97c8513b55bc4fcd33cca1e527f7a293a92a0a9507b0288ad",
+      "local_sha256": "9e8577f22c69436e271d9489624321073424ade3aed437c0b637c0fb6ff22a2c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_47.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3a47a555a465f60f0fcba130656a060885e9b546ed0960559b2d8dc32c904b3a",
+      "local_sha256": "1c47ae76fe5789a1a486a7eb62dc53bbbc3534ed8351af8393324ff549ebfa03"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_48.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "93703ce6c80c5467eadf9b0b7619cc54d007d4bb43f6822fbbdc4e6933ce6500",
+      "local_sha256": "3e5c4061d24b08d2e3b60e95e607994e44742e50f8e6b08e58528dad8142cb3d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_49.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "90cd951357354c743c9f21f1ba5ee4a41d0be62adaad7732f69c6a0021e97e5b",
+      "local_sha256": "17b14c3635b3cafd9905e39b74d0ed958f84beba1c9b13a2d5f142b4d16f428d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_50.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "96c0acdd21befe543a205c0c0274911b16598706db5bafd2c5ba0cab929ab52b",
+      "local_sha256": "b6dec6249586c2da7a7ef9d6ba7375cd370d9d44a4edd819d3628cfb5bacf9ba"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_51.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3129734aa4281ff7dbdd2a9e1237cb11c7bc66b06b4fd851c04120520cb6089f",
+      "local_sha256": "e2c103214f756e75cdeed3656e43f8f2e28323dbe997554304413abbdbe4f8fc"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_52.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f426dac85c19ed57ee8259e2bedf609a45ca5b0c89d0f15172d855b75941c52b",
+      "local_sha256": "b626d568689d547cc758d7283c278cdcce568a1109652eba5c5e2693da74406d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_53.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "28ad2ba734291b86ac1d05941899361b798efbc2abf207ef0f9029ceac298061",
+      "local_sha256": "99b63ccb7951c5a812050927e58264edfcd7cdd47e3cf6f7675cc9d8fcaaf365"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_54.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "02789a65a6ca3d095ae6b8577204656a6d2f0070df6ab60325ad46ee01c972ad",
+      "local_sha256": "d99c32826178834e354759c84cf91df0997a372fba199962a4f841865f5b4f28"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_55.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "51ca0b792d64dac738900d04d691d4d6ee1f774f759f120b4f516c36c6942db8",
+      "local_sha256": "62af8a8adf1afad2a584582036d8f7ae1484e184b6a032d36be85c20eb510269"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_56.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "852d6563c9bd1506495f1a6d4ab1cc7924fbf9a1cbec144b69ced43641395256",
+      "local_sha256": "0cacf2706d71334f44269cfad1cc3e2299292c354b6a19f1dcc8e8c01b7ff619"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_57.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "ee88b7b6b5df81eaee91872e45b746347e5ad8885e82e763aa7606ae2250d0d6",
+      "local_sha256": "9b8bdfbaf088ba4f029293c676dc443ec187ac3b8ae41de295184cc65e7a84c5"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_58.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "ebac3cabe9721333eb4df09824e7886fe54e1f5f9ce1f6c37e729f1182842341",
+      "local_sha256": "c861e62a7665cdf7040091bc11ce8fdf073c2836e20238177350753716531519"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_59.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c93ca296faff9e237ddfe5c132a794f46d6369285aead6a83370498b3e42e2f4",
+      "local_sha256": "ed08f5ac976adc69bc482e34131461416c8e5cba9d50ff68de2267ed0920b5ab"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/vanilla/fz_instance_60.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c50da76ac93eef6baac263cfd137d6cbfb16fe0497ada3624fe0a04ab7e19a68",
+      "local_sha256": "cb7a227dba1f159dbf1d737ef7194dec333fd1bfd490c28615ac3387de106f1f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_1_1_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "5595eaf493ced973d8d49514fced33ecf0474b0c88f5d4b83bbdc2b16cc14dc1",
+      "local_sha256": "bbdf59ce8298f67440062f61d89902b780af57b53d0ab65e9279621eb2164a48"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_1_1_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "24e87ba3913e67564c74c0ab9be115e8fb7f9c1018677b262f37d869b49ded4e",
+      "local_sha256": "a413848e083f938252541eef677e6646e8741372b07ff457a850a31344c3b13b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_1_8_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "def3eac801228352dafd6c0182db5e9402b62a1ad50712be85bef88d40458625",
+      "local_sha256": "dcfce66cda3e06a433a9d2571ce095138df674c5cdff9e3cc3c8aeef2ce12e47"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_1_9_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "224be68030291e2f7201a2f1ed6b78dd6dfed191d21f537d79682fd57a77d5e7",
+      "local_sha256": "5264991c948d0c3d1feaa3d0f8100e55db16490164718cf6759d5b5b260a2765"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_2_5_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "7891ef6167bb8392fbf0fc5fa1bdbd0208e6b0bfeb0dcc474990239d21807a38",
+      "local_sha256": "bda95c468e30d06f6c1de957632ac749d585d1d7f10ff2ff0175def6eb6fc19f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_2_8_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3aa9ce6dace8c44bbb753fa20d9242be1de8ba44bf1cef8a230fc88293018513",
+      "local_sha256": "6ba34d2baaf9ccb706595b3b3ed820665cb5868b32395403487ae18228c41673"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_2_9_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "3af0d9af069d8a44da9d9f2fbad8dcee054ae3645a7dad4d51fc50160a52b68c",
+      "local_sha256": "9b51f6fe57a3352d4e652c38f85acfd1c48b0cc1c6e0c82134f779ad24dc4968"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_3_3_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "7fdd0324c4ff645cb5a047d1dafc18d96d49709bfe51ce5a52e3abe9753d659e",
+      "local_sha256": "a412d7996073328dbc05ac283b8fb00e668706b28537a7faa3cdf3d545f9db33"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_4_2_5.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "1bbb8bf63bf36c89714a73158d3dde0ab23d7dec201a14ad1082c9a532b56b18",
+      "local_sha256": "4b075e20c056db084bdd87d595b820fc51e1522bb9732eb4fb72c636e40c9dcc"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_4_9_5.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "540ea77c44c7816aed1089fc00e1e8a67c37571e910655e84f50948640214a88",
+      "local_sha256": "5620fc328d04634eff84d4ed2c813f3ffb53fad570ecd8dbef00d470df52220e"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_5_2_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "faa313840ea89cfbd74c3f95f13795ff740359ca51de240fa2bfd971d3959687",
+      "local_sha256": "728aec6fb797f859e2032a0becc18b1959bd64dfe1dc1b180718d7346bf10b01"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_5_10_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f178f917545ad43378f8ef89389578e07193cb6a81b6bdfdd2cbc3a1257ceab8",
+      "local_sha256": "bb6f85b989a1b94445c894cb35fe14172e0247f042cd167c78df1c45762dbafc"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_6_8_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "cf65a51d106288bbbeaf40b883b563ede3fb712dc6b72fe5f7c722e225a9051b",
+      "local_sha256": "b7191c590c38879ef8d07eea94dce40cfdeb62b44675a62bd98c6851a907c373"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_7_6_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9b8586722d6a54e18eb890f8ed661269d6ef48f7870dda4ee4144f199fd87067",
+      "local_sha256": "2dc80292ced8cc0ff784c035e0d98f3dc90c5592874df34bf579108777610fe5"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_8_1_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9561499883efd3e1fb3f24f06d0d9301716829dddfebb8b8566e10ecf6448ac7",
+      "local_sha256": "d2190f753c460602b9fef2d905140f752d8869a74077eb4de229ecfc79acf9a1"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_8_1_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c6d5bac649d80111a532c40c3a0d22a8ec458c4a02f04b47ffebc8d1e5a98078",
+      "local_sha256": "842541b4f39521d354fc2ae110482c4f61d5fcd79808521f99a73773df08512a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_8_1_5.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4dd4adc6cc402953515141b066d088b4be0a30addf244e46b20439c25720a1a3",
+      "local_sha256": "9fca334b24792524a63f6a3dda471b73c3375670370f20437fe3e26113fb0e22"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_8_7_1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d23c70fc51cf6d84fdf3d0104b614f460478d421894cfdb1e0baedd2e9f9e155",
+      "local_sha256": "e582578b98373d0e6001c6c26cfdbf0b1c4ef8ee231648f452bf208141fac58f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_9_7_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "b8c8a8262374b081c2b5c6315d65071a04df9db15e67fab1afe8663d2dfad682",
+      "local_sha256": "d73c19e87319f39f46a97b3b36da169b3c4f200dda356ecd5feb5f77a7afd57e"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/instances/problem_10_10_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d6ccb2e3d1e660846a023898efcc5c988ac97f21973265cc3b3187b7a0bd5f15",
+      "local_sha256": "f8f0b48404dfb186678a6558df7af665da983e7314433cba6a4cdd14b62e1b29"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "db3d34882791aafac3fe6186bedbbf71f4d001148c38dc01fa894d5e1bf43277",
+      "local_sha256": "2f81fe61c91ef485c1529aa9ed81e8180d65dd34a1b6647cbd02eb22bede5024"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "2ed9ea9e0535b25f34bc54d405c83e65cdf387b5f3d4ad26397cec2ba6a46a1a",
+      "local_sha256": "acaa9c37b5152e3b7aa044c64d6fd399f9ec9006de9979e5ba7169855b411549"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d83e977f2b3a204c015a553d6745d3ea3a53c2fb9a26063d741449afc801a402",
+      "local_sha256": "6ad36f1a826abf3cfffb011c6da98082d62105b4b081d9f9a8ad79cb58e187bb"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_5.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "efa081cfa3e3cd91536ff61cf75864745bf45ffcc119c1dcf5dd1724f4bace4c",
+      "local_sha256": "fa85c5ffa6dfbaf0e312c6c753a38fad8d206c4f33b7d93a8c1a2ca20715025f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_6.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "144d62abeea54e757d2a494429ecaa11f7109b5e558e75eb38a5e172fd1d86c8",
+      "local_sha256": "bef7c1dd6acec5335bc190990777fd1f7eac1454adf2406e2d98499d9c5a0a4d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_7.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9df6a0edbf0f21ab6a2ec0aae36b9886576870468ddf808f0a296d25b83d8200",
+      "local_sha256": "6a3f0fb7cd2a971a9be1b59a198d222efbbf63855aa6848250f599140fd13fe2"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_8.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "020db3969fe3c8c15247dc5bb7d946d1ca68bcbd5eec54eaeffbfe5453acb31a",
+      "local_sha256": "9ad8a2cca94ddf7a3f2a472a726811fc177ea334cae83e2f2ddcc1444d8be0fb"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_9.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "a077fbd68c21a00c0b883317a20a5b1798435327e73fb36b58fc823cbe36210c",
+      "local_sha256": "d655b75e480e8e5b87757e52deac47384cc71063883cff04ccf462fb39b10c20"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_10.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "bac28dae71f8bb28e0d6b53033e35a83cd8f3aeb822957c096081d2766485a3a",
+      "local_sha256": "f0150aa129a3deed012d2fed22dea2f40470498388d7e251f7295d345fd65b91"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_11.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e9bcb0baaa539a9ea00301c5af8a93a574cdd62ad52b0387b6b08ddd9257d07f",
+      "local_sha256": "37e8524d5f2befc527bb6c8bcfe0d1badf7025b2815a4bb20b817569e28e6f0a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_12.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4c71477943af14873a8395e3f63d7877ec397b2d533708abc8860f26e751dc38",
+      "local_sha256": "d65062322b407a64045fc96eea7aae2820f27d29c1b94323e875480b51edd8a4"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_13.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e2aeb63354377b37389882331bd18cbf6e696e37254550fe2c1797e2488a4e65",
+      "local_sha256": "7f75801386148cbc9889474a7ab5f12fefc6ace9b8fef3d4036f85e77af6f94a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_14.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "58818bdb0947676b559cd09226b3dd2b8108db24d8627335c77e3531e9363c89",
+      "local_sha256": "c8f562a9ee60b5e1519e3cdda646cad527af8e8e2e0cc3afec4118985c5fa652"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_15.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f7e15f49e9fc75699837121436e29fbb80519e1bc464c6082d537a71ca979d49",
+      "local_sha256": "4aac88595879d1b638903445d560f3407ed74bbc99a743eeb67d07cd483f7e18"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_16.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "d4496331bff25d97b16617d02878c5c516b83209f4fb699a0ba19d0cb7a09c60",
+      "local_sha256": "10926006f1078a546f50a40c21a21af3e17ef3069132bc0b25319577707ba2c8"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_17.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "cb342bdfddecd963d11f898cfd0a7dc991de298466fb3636d5cbeef59e088a5c",
+      "local_sha256": "d37b69ddc9c21c124f9aa895dec957a84f7bb74ea1d726cc64dadb2487600bb1"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_18.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c230df112b7358eab6a3f731e230d8f64bc0dec6d676069ba699fd388ff5f08e",
+      "local_sha256": "014bd987746db1578b9b2dac3d4ebd8a086245969a8af18dfee33a79df853edd"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_19.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "26926dd8265166e7984e1e2670f95cb11d6c8d113723b52bbc8803ae58ac2133",
+      "local_sha256": "640ed821da01ef669150facf6097405e4194f674b4ad7a7ca056053b5990f00a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_20.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "350013ea910b9ee789b763bccdd0aa5fad3080c06b06fe83b2d98ad61fb313aa",
+      "local_sha256": "539a56c2eba7aad2909add781741dbdfa3db2b3278152dba51b6cde0c1166c5c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/instances/instance_21.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9221bbed55ac46507804f6c8c4fb279952c05ad7e70d39d8bf521c56ae5beb82",
+      "local_sha256": "1c92806cb03af76165675daaa51e771f3bfd3dedf9dbbb73cf8ed8bf5d1c3bc8"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile01.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f8996434794e5a392d99ffc3421c915d2388eb463aacdbcee6ddca8dbd445203",
+      "local_sha256": "e4f33f6b3d47f7cf510836a2ce941999d8bf3979780d658bd3617a2a2b276cff"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile02.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4b3bddc4897c21a8e2b71c1f6e4338054233aee13cf2d742df6491aa06a87aca",
+      "local_sha256": "430474e3428b3d3840e08264f5148593a0c15d6225db041a5df74f81f999a9a8"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile04.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e86fd9ff858a64c750186429f24f07fff03b6a3105c025248422043497b9b272",
+      "local_sha256": "ad72dc812a026ae5e4bf449676691817ef3fde2bb21478bc0c119551b28b2c82"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile05.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "b66f50562edef0aad4d98fe33498cf8946cfc6093e2ab1231b08f1a73111a9c4",
+      "local_sha256": "1535558adb508374d77e2ba9e89a02e184f8841e21e6e77fa4f0b8b64444f1fa"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile09.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "6613c83313eed23cc060cd10769aa709eb97bfaca8adc9458a8b5f73371e9ad6",
+      "local_sha256": "c429538d4be1ee08f7cdf3c9ba349c1e02835329e862ebd351ab7c6cef12d6fd"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile13.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c102e3c853f8dbb9c605ad5a33db547857cab684d0fcac1090e93146f31afa6a",
+      "local_sha256": "31e8f59ccaae77c9d5581f7cedf39cd80cd2171fc14035373e32d126b792bc5c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile14.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c6f40ddc8fee57b7e6a99c60825d140d255d576b6cae47f958c1b38f81a29ec8",
+      "local_sha256": "f4273f5438902510ac40303f12a910248d03ddac9da455977151c5c86494e181"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile15.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "5477eb48cbbec6d583f8038054e1d1703511786bee487cdd1ed73d256b5d99af",
+      "local_sha256": "0e08074047f5cf7459029ca0fdf18e87ed462e9a9fd71561e9e57a593deedd6b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile16.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c1bb93ef5f26f5d36323606610f509620546fa3cd2074381d19b66729a85c3b7",
+      "local_sha256": "ce9acdfc9d550cebd4c1eff1217cf8e4b321f23550c5ba77f8552ec45e423221"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile18.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "9dc35744665357af7ca32695666eb8e3d144e0ea912cfb6437552f6cdd6373f2",
+      "local_sha256": "2950dae4bf58200cc878d9935080a7099df83a82ccd7e4f8cc4fb977eadedce1"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile19.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "e9558ec897f9d1f207f51f930d46fc2585d745ddc6b95daab529e2e4bc97ef92",
+      "local_sha256": "705c07aca0413622d1058636588cec58e182804e90a2aa36a9d9b642362d0438"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile20.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "4f72b2e99c9960cc59e8467adee2b6532f60a77e81b34bfd691e114755e5e238",
+      "local_sha256": "c15621747aaeb29e192f67975cbde0ca9264efcb8fc33647760e26dcbefc6517"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile21.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "426acb5713fdd6ab8b0a83fcf6fbe05254026a0b1eac4bd942524425a51a7b67",
+      "local_sha256": "340d06cc33ec9cacc42909ab831a525862438368f73d61a648cfe389e8898eab"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile22.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "87c387a971b47b2cf435badd5d359134b751413d26b7e9a2c594ac2541f1a70d",
+      "local_sha256": "06e4ec6b5f2800d4ce8b7eef161f38a6850d9adbc3872593903ada24ac237365"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile23.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "2b70591baba0267e18dcadb48a8bbd6a4b49714fc8bd97120de13d82a1d8f28b",
+      "local_sha256": "9f710aad27055a099be9411f5a356cd34672af35465319615510262bd5907d5c"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile24.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "720ac725b0dab6b183e987f0c7fb8a006126b5268051ea640c0c30efd94a7a7e",
+      "local_sha256": "3544a1c995775bf3d02be7e5548d7d63ff8abdce4b32f2f5a6e4cdd7a605139e"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile25.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "195c2d93396c41752601ed26896ce760247ae7d552be61f957eec8b2937dd77c",
+      "local_sha256": "3c96808326904b3300cc8f27402e3dfc895885fc5547b82168207aac5afa4872"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile26.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "83d555b0fd4b3c4f7ce48ecf2e39126f4136c545bb4e319f58d32a81975742e4",
+      "local_sha256": "46821c9d9c31fdd3109622683db954ae01aa3c8bb30f5a28f3dd263818920c48"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile27.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "63a3d9fbeb976f0b2349ae5d53d5499478eb4bad7532fffc401b5a26d9c0dc32",
+      "local_sha256": "7a9a2f1e6c533ddb83dc47387ea420b6a28aa43a152b1b74d082f5d76fcaee6b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/instances/pfile28.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "082267e6486fd7ed82d6d21d37967c1a9a0e7370cd11741595ecfe11e34e30ae",
+      "local_sha256": "0ed8486a7365d5a5147cb722bad8628fe383eb4760406a9aee066c84fd7e7498"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile1.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "217b776fd9f7567e2164c1be0bc97162246953956bc714d8bc552afda4b13d21",
+      "local_sha256": "c3e806f112f3e19588b3418af143195927cdc0dcd77c1be3b99364bd57cfa891"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile2.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "313417c6001b61b8fc7010563e63b46643cbec88144a7d7a6d8d523194e6895d",
+      "local_sha256": "de856d0469af32920a97425b2cddf97e871439004926d5e4ff021bcc93890362"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile3.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "b38f07327141418243dee1ee67346730cc402539eff11e7929245f73e37755eb",
+      "local_sha256": "91c050819efbb36cc147aa6dd7cc87e1f438a1b44e6e028d5ed1edaa539a549a"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile4.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "252bda8de6252b58d89bace588c43466a7af3b9cea26dd0b9a903a49e20bd4f9",
+      "local_sha256": "c22460b52d5380c87eb7217e4fc32456f270a1f344ccd163bada5c6885c4a86d"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile5.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "c59d87bfb06a955b20154025e578ba5efb201f8bb3197e6a9900fb1945d3e683",
+      "local_sha256": "82be06a8cac180c7f84b1bba18523b45737211e47408b725cb540f0af5341e76"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile6.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f44a2294abcd6ece231f10861ebe21c91f60835bbbb16b02d01bcc6cca077bc2",
+      "local_sha256": "37861c52da80c2f57a30a4ce0c6a799b74299dd85e05989ffce19d5df647bad2"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile7.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "6f6f935220545b7e444fbc0c22cc878b9734e91ab2dab7dc3133ecb96e44a074",
+      "local_sha256": "6ce427559433af643668142e3b41cec88ea7e2e393c308d43a4f4743c96d9e2f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile8.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "fce06037269e2b5f5cd4d32a452edd0aab51ee777a959d6b879c7727a7a4539e",
+      "local_sha256": "3c2e2c7f6004fed9989e91f301d8c9ce5f0827ab4509943aba9809e2e314ea69"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile9.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "69576c43dba1dc7841700d199f5db0296778cd5c8b2bf27338a2d0e66d3bf43b",
+      "local_sha256": "4152f701d70e15e255f6b3585aa2eecb9ba518638bc281c0d79c8c8480ef5620"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile10.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f13d1122cb436c0acb84c533eb47b902ff669fadca32fb2d609cee533c449d36",
+      "local_sha256": "f699a03dd0f39931a81e479db7e9babcab2a862c55b26f6291199ae761657337"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile11.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "7e926a7ad2aa0cc5d08f7399c2a48d88640b1a59fbf4d0e151f7a683e2845c95",
+      "local_sha256": "0d081623a8e0f774c91c1d2b542098b7c3eda0e1c264547e29f6165815c37400"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile12.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "5b03bcd45d1adbd9dd635bef3d87c5c23315f8d338f92a685f63788eb3a6dd00",
+      "local_sha256": "bf93c83d090358217ecb4de4c20c0f57eaed53a6c1a01fd079ad1837dbe110d3"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile13.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "5a806c31c04eb351fcda4d9a0519c92824efc2a63b02d703b4e849481e23c6e5",
+      "local_sha256": "2affe3419946a45af1300a2e32d04681c1f376beb1286a9f070b720a1106674b"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile14.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "f85252ab34109a3d8ad4d2895f6a41619540ba05dfc6c2d1fd59cc4cd6bd0991",
+      "local_sha256": "8c585e3722f46e8bc5dc84926e5f97437f018b36eca9783ca467078cf5ff049f"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile15.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "99e81f36affa1595a59cd5820b2e63abd95e91abd54d2b49d6acf20081124253",
+      "local_sha256": "e71b0a04ad11c11dfffa1b6ab5167610bc506dbd8b7492b0721f00d7b9faddfc"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile16.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "286613ab9eeb5545bcefdf314a079c5ed127ab953d58f5c0aaf68f7343988b57",
+      "local_sha256": "cbcdfd0109bd464d1ad44c6d3bc0d0326e98c628871740d7177d0422c1655ed1"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile17.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "70ddadfca3e176c856898e9e78d114b8d6d70020c12ec8e08698dd79d880d184",
+      "local_sha256": "55c54ead41c870d1c7c7f45d7ec8e45c49b69b2d29619b50556777209c4fb598"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile18.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "fa99bdfa3a3390e200c3c029c47b77e1732510cc5d9c5ce589608a6be423ac53",
+      "local_sha256": "bea956a66d1020254b39c1c762bb39fe4a311b34ef0bd260cdbbfa58e29847cc"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile19.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "dca6833a3569959527c1f176351ffe8a6b50630c3150d3383097902846cba25e",
+      "local_sha256": "33d33d3a1e27731f3d873645358216aa6a0be4820dbee5cc6838d62d3dd87951"
+    },
+    {
+      "problem": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/problems/pfile20.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true,
+      "remote_sha256": "6d38362fbd31221334e3bc2d39b48d9ec9758a4c94b8420dcc58e5c4c5249edc",
+      "local_sha256": "69598fee921a69559e6fb9e62c5d1be81a71d0c3959751c094ad97ff04a83b18"
+    }
+  ]
+}

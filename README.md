@@ -1,5 +1,18 @@
 # Implementation of Numeric ASNets
 
+## Current six-domain thesis evidence and reusable evaluations
+
+Start with [the October4,2026 release](thesis_reproducibility_bundle/current_20261004/README.md).
+It includes all six imperfect domains, complete historical ten-seed results,
+repaired Counters evidence, independent value-head labels, full domain statistics,
+oracle plots and all52 raw/global-Holm tests. Offline statistics replay and
+dry-run-first policy/fixed/PW evaluation scripts are provided. The bundle clearly
+distinguishes20 legacy bundled networks from current networks requiring retrieval.
+
+This clean repository is the advisor/future-student artifact. Ongoing, uncommitted
+experiment development is in [the active repository](https://github.com/Bershco/numeric-asnets).
+The original paper implementation and legacy bundle remain below as dated material.
+
 This repository contains the code used in the ICAPS'24 paper Learning
 Generalised Policies for Numeric Planning. The paper abstract is
 

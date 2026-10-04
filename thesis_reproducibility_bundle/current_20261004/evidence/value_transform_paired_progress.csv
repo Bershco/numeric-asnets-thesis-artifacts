@@ -1,0 +1,17 @@
+domain,vh,seed,instance,selection_role,policy_steps,pair_complete,exp_status,reciprocal_status,exp_steps,reciprocal_steps,exp_seconds,reciprocal_seconds,paired_outcome,exp_steps_exact,reciprocal_steps_exact
+block_grouping,off,1963100312,instance_100_20_5_1.pddl,prior_policy_only_failure,3762,True,action_limit_10000,action_limit_10000,10000,10000,3712.4504874010163,3185.351759617013,both_failure,True,True
+block_grouping,off,1963100312,instance_100_25_6_2.pddl,prior_policy_only_failure,3652,True,action_limit_10000,action_limit_10000,10000,10000,8511.886525295995,5397.202089194005,both_failure,True,True
+block_grouping,off,1963100312,instance_20_5_2_1.pddl,prior_both_success_control,26,True,success,success,28,32,14.522833663999336,15.776574265008094,both_success,True,True
+block_grouping,off,1963100312,instance_20_5_2_2.pddl,prior_both_success_control,32,True,success,success,32,34,14.524733185011428,15.275946502020815,both_success,True,True
+block_grouping,off,534933607,instance_100_20_5_1.pddl,prior_policy_only_failure,2305,True,action_limit_10000,action_limit_10000,10000,10000,15374.612491606997,14882.457706669025,both_failure,True,True
+block_grouping,off,534933607,instance_100_25_6_2.pddl,prior_policy_only_failure,2860,True,six_hour_timeout,action_limit_10000,5100,10000,21600.048988833092,8543.010508367995,both_failure,False,True
+block_grouping,off,534933607,instance_20_5_2_2.pddl,prior_both_success_control,31,True,success,success,32,31,15.025075087032747,16.02814795199083,both_success,True,True
+block_grouping,off,534933607,instance_7_10_2_1.pddl,prior_both_success_control,26,True,success,success,26,26,19.792297618987504,19.28394583601039,both_success,True,True
+counters,on,1963100312,fz_instance_21.pddl,prior_policy_only_failure,1136,True,action_limit_10000,action_limit_10000,10000,10000,4781.514060328016,2244.43881332397,both_failure,True,True
+counters,on,1963100312,fz_instance_22.pddl,prior_policy_only_failure,1209,True,success,success,2927,8325,1254.192585304001,8890.981319110986,both_success,True,True
+counters,on,1963100312,fz_instance_7.pddl,prior_both_success_control,21,True,success,success,21,21,13.276006602041889,14.274441661022138,both_success,True,True
+counters,on,1963100312,fz_instance_8.pddl,prior_both_success_control,28,True,success,success,28,28,15.277887208969332,16.28113337996183,both_success,True,True
+counters,on,1510771779,fz_instance_18.pddl,prior_policy_only_failure,961,True,action_limit_10000,action_limit_10000,10000,10000,1541.1388327089953,3107.4324119590165,both_failure,True,True
+counters,on,1510771779,fz_instance_21.pddl,prior_policy_only_failure,1174,True,action_limit_10000,action_limit_10000,10000,10000,5643.203565679956,3181.7713718659943,both_failure,True,True
+counters,on,1510771779,fz_instance_7.pddl,prior_both_success_control,21,True,success,success,21,21,10.767683879006654,11.01588396076113,both_success,True,True
+counters,on,1510771779,fz_instance_8.pddl,prior_both_success_control,28,True,success,success,28,28,12.267918640747666,12.26963700199849,both_success,True,True

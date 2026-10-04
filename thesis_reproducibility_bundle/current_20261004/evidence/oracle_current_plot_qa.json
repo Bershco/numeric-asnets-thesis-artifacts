@@ -1,0 +1,12 @@
+{
+  "cells": 12,
+  "bars": 36,
+  "numeric_bar_labels": 36,
+  "repaired_on_policy": 44.2,
+  "repaired_on_mcts": 21.1,
+  "repaired_on_oracle": 44.8,
+  "repaired_identity_rows": 590,
+  "repaired_seed_rows": 10,
+  "removed_footer_rows": 2,
+  "all_membership_exact": true
+}
