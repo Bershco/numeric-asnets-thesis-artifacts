@@ -72,7 +72,7 @@ cause. [Official paper](https://ojs.aaai.org/index.php/ICAPS/article/download/31
 
 ## Successful-run behavior and regression budgets
 
-Historical successful-run means, VH-off/on respectively; success conditioning
+Current displayed successful-run means, VH-off/on respectively; success conditioning
 and stage/cohort scope are retained in the source CSV rather than construed as
 unconditional domain averages:
 
@@ -82,7 +82,7 @@ unconditional domain averages:
 |Drone|92.7 /94.5|70.3 /129.0|
 |FO|51.0 /55.0|63.5 /63.6|
 |Rover|10.3 /11.9|57.4 /26.1|
-|Counters, narrow|973.2 /815.9|377.4 /752.4|
+|Counters, narrow off /repaired on|973.2 /1559.0|377.4 /447.7|
 |MPrime|26.01 /20.35|9.33 /16.17|
 
 For the repaired Counters policy-success/MCTS-failure population specifically:
@@ -98,7 +98,8 @@ context-switching explanation alone cannot account for all four.
 
 - [Actual native grounding and state-bound means](evidence/six_domain_full_statistics.csv)
 - [All159 per-instance counts, bounds and hashes](evidence/domain_instance_grounding_and_state_bounds.csv)
-- [Behavioral source table](evidence/six_domain_successful_run_behavior.csv)
+- [Current behavioral source table, repairedCounters-on](evidence/six_domain_current_successful_run_behavior.csv)
+- [Historical behavioral table retained separately](evidence/six_domain_successful_run_behavior.csv)
 - [All237 policy-only losses with policy steps](evidence/repaired_counters_policy_only_instances_with_steps.csv)
 - [Rover objective-unit audit/calibration future work](value_estimation_objectives_and_calibration_future_work_20261003.md)
 - [Current configuration axes](EXPLORATORY_AXES.md)

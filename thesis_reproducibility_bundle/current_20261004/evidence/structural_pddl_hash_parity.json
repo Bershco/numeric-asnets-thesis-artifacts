@@ -1,5 +1,6 @@
 {
   "instances": 159,
+  "domain_files": 6,
   "byte_identical": 0,
   "all_production_local_newline_normalized_match": true,
   "checks": [
@@ -1115,6 +1116,36 @@
       "newline_normalized_match": true,
       "remote_sha256": "6d38362fbd31221334e3bc2d39b48d9ec9758a4c94b8420dcc58e5c4c5249edc",
       "local_sha256": "69598fee921a69559e6fb9e62c5d1be81a71d0c3959751c094ad97ff04a83b18"
+    },
+    {
+      "domain": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/block-grouping/domain.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true
+    },
+    {
+      "domain": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/counters/domain.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true
+    },
+    {
+      "domain": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/drone/domain.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true
+    },
+    {
+      "domain": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/fo-counters/domain.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true
+    },
+    {
+      "domain": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/mprime/domain.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true
+    },
+    {
+      "domain": "/home/hersco/bershco-nu-asnets/numeric-asnets/problems/numeric/rover/domain.pddl",
+      "byte_identical": false,
+      "newline_normalized_match": true
     }
   ]
 }
