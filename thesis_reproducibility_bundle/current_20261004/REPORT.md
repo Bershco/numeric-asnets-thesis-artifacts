@@ -1,6 +1,6 @@
 # Scientific and cluster follow-up — 4 October2026
 
-Scientific capture **11:43:02IDT**; verified queue **12:02:29IDT**. Fresh storage
+Scientific capture **11:43:02IDT**; verified queue **12:16:42IDT**. Fresh storage
 and final diagnostic cleanup have separate stamped receipts in the packet.
 [Evidence/CSV navigation](README.md).
 Prior reports remain immutable dated observations, not current queue authority.
@@ -94,7 +94,7 @@ One freed192GiB parent allowed existing FO-S2 concurrency22→24, verified in Sl
 
 ## 2. Cluster workload and measured estimates
 
-Queue12:02:29: **63 scientific jobs running**,270CPUs,6080GiB allocated;
+Queue12:16:42: **63 scientific jobs running**,270CPUs,6080GiB allocated;
 **45 pending**,168CPUs,3020GiB requested; **zero user-held**. The separate
 2CPU/8GiB diagnostic allocation is temporary and canceled before final reply.
 Pending RAM is not simultaneous usage. Current scientific pending reasons are
@@ -105,7 +105,7 @@ array concurrency; four maintenance jobs wait on dependencies.
 |Drone intended21955700|18/22|72/1152|88/1408|72h groups,6h/instance; pooled≈16.6h at18 workers|
 |FO S2 intended21955702|24/8|96/2304|32/768|72h groups,6h/instance; pooled≈31.2h at24|
 |Counters offS2 intended21955704|8/7|32/512|28/448|72h groups,6h/instance; pooled≈14.6h at8|
-|FO S1 exact21955993|4/4|16/384|16/384|72h groups; active8.5–35.7h,38 positions remain|
+|FO S1 exact21955993|4/4|16/384|16/384|72h groups;38 positions remain; observed≈51.8h at4|
 |RepairedCountersS2 fixed/PW|9/0|54/1728|0/0|72h; active27.6–53.9h; guard covers true tails|
 |Three collectors+one guard|0/4|0/0|4/12|1h maintenance jobs; dependency-bound|
 
@@ -120,8 +120,10 @@ NODE_FAIL/TIMEOUT that requires an additional recovery submission.
 
 All-family simultaneous maximum is6100GiB including8 diagnostic+12 maintenance,
 below6144 by44GiB. Useful capacity is occupied without wasting RAM on new filler.
-Fresh full-home usage/headroom is in storage_measurement_compute.json;400GiB
-is the working ceiling, not a newly verified site quota.
+Fresh full-home measurement11:43:27–12:16:07IDT: **379.4152GiB used**, working
+headroom**20.5848GiB**, about+.0323GiB since the preceding10:23 measurement.
+fresh_storage_measurement.json retains the exact byte receipt.400GiB is the
+working ceiling, not a newly verified site quota.
 
 ## 3. All-stage comparison, RQs, V2 and oracle
 
@@ -234,7 +236,7 @@ separately before final reply and its absence checked.
 Active code: `https://github.com/Bershco/numeric-asnets`; sourceHEAD58bcbedb,
 September23 (~11days), dirty uncommitted experiment work, no bulk commit/reset.
 Clean artifacts: `https://github.com/Bershco/numeric-asnets-thesis-artifacts`;
-new dated release and final commit/push receipts recorded in the packet. Legacy
+new dated release, normal push and clean-checkout receipts recorded in the packet. Legacy
 bundle65 checkpoint-directory files (20 networks plus45 support files)/59logs
 and pinned/native-runtime materials are preserved.
 New replay/evaluation launchers do not automatically submit or connect to BGU.

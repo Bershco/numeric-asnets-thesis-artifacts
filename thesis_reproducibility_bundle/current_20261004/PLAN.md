@@ -32,8 +32,9 @@ worker time, not only successful quick cases. Queue delay, serial packing,
 harder residuals and operational retries can extend these substantially.
 All-remaining-six-hour fluid stress scenarios:99.3h,55.5h and84h respectively.
 Use **October5–8** as a working closure window, not a promise; keepOctober9–12
-for exact tails. FO-S1 has four healthy active groups and four pending, with
-72h parent bounds; do not infer an ETA merely from the bound.
+for exact tails. FO-S1 has four healthy active groups and four pending.239.79 observed
+worker-hours for44/82 outcomes projects about51.8h for the38remaining at4,
+versus57h if every remaining instance uses6h. Queue/packing/retries are additional.
 
 ## Priority2 — repaired Counters Stage2
 
@@ -61,7 +62,7 @@ remain mandatory; unrecorded positions are unscored, not classified failures.
 - [x] ✅ Oracle12/12 displayed cells, repairedCounters-on, all36 numeric labels.
 - [x] ✅ Full159-instance native grounding census and explicit state bounds.
 - [x] ✅ Global52 exact tests and Holm scope, no separate repaired-test family.
-- [ ] ⏳ Publish clean dated artifacts release with evaluation/statistics scripts,
+- [x] ✅ Publish clean dated artifacts release with evaluation/statistics scripts,
   source/file hashes and explicit bundled-versus-unbundled checkpoint inventory.
 - [ ] ⏳ Advisor-facing interpretation, thesis prose and source citations.
 - [ ] ⏳ Scientific freeze QA: all result denominators, source identities,

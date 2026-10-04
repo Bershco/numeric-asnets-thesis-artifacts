@@ -69,6 +69,12 @@ rebuilt during this packaging turn. Current Python runtime files are updated
 in the repository and preserved under `source_snapshot/`, with file hashes and the dirty
 source-repository revision recorded in `release_manifest.json`.
 
+Manifests preserve the original packaging-machine byte SHA and also give an
+LF-normalized SHA for text, because Git checkouts can convert Windows/Linux
+line endings. Network-weight and image hashes are binary byte hashes, never
+newline-normalized. Do not interpret an expected text newline conversion as a
+different scientific checkpoint or certify arbitrary other content changes.
+
 ## Evidence navigation
 
 - `REPORT.md`: current seven-section scientific/operational report.
